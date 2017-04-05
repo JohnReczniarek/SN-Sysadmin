@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" type="collection">
+        <element label="Alerts mailbox OK?" max_length="40" name="alertmb" type="boolean"/>
+        <element label="List alerts mailbox errors:" max_length="4000" name="alertmb_info" type="string"/>
+        <element hint="send email to mm.sdesk@mmem.com.au and see if you get a response" label="Autotics OK?" max_length="40" name="autotics" type="boolean"/>
+        <element label="List Autotics issues:" max_length="4000" name="autotics_info" type="string"/>
+        <element label="B2Be working OK?" max_length="40" name="b2be" type="boolean"/>
+        <element label="List B2Be issues:" max_length="4000" name="b2be_info" type="string"/>
+        <element label="BI Reports OK?" max_length="40" name="bi" type="boolean"/>
+        <element label="List BI report errors \ info:" max_length="4000" name="bi_info" type="string"/>
+        <element label="brun OK?" max_length="40" name="brun" type="boolean"/>
+        <element label="List brun issues:" max_length="4000" name="brun_info" type="string"/>
+        <element label="Major Backups OK?" max_length="40" name="bupsm" type="boolean"/>
+        <element label="List errors with major backups:" max_length="4000" name="bupsm_info" type="string"/>
+        <element label="Overnight Backups OK?" max_length="40" name="bupson" type="boolean"/>
+        <element label="List errors with overnight backups:" max_length="4000" name="bupson_info" type="string"/>
+        <element label="Salesforce CPM OK?" max_length="40" name="cpm" type="boolean"/>
+        <element label="list issues with CPM:" max_length="4000" name="cpm_info" type="string"/>
+        <element label="EDI \ DocOrigin working OK?" max_length="40" name="edi" type="boolean"/>
+        <element label="List EDI issues:" max_length="4000" name="edi_info" type="string"/>
+        <element label="IP Monitor OK?" max_length="40" name="ipmon" type="boolean"/>
+        <element label="List IP Monitor errors:" max_length="4000" name="ipmon_info" type="string"/>
+        <element hint="send email to mm.sdesk@mmem.com.au and see if you get a response" label="Lotus Notes OK?" max_length="40" name="lotus" type="boolean"/>
+        <element label="List Lotus Notes errors:" max_length="4000" name="lotus_info" type="string"/>
+        <element label="Maintarc OK?" max_length="40" name="maintarc" type="boolean"/>
+        <element label="List Maintarc issues:" max_length="4000" name="maintarc_info" type="string"/>
+        <element label="National Unibis OK?" max_length="40" name="natunibis" type="boolean"/>
+        <element label="List issues with National Unibis:" max_length="4000" name="natunibis_info" type="string"/>
+        <element label="Receive+process &amp; Maintenance OK?" max_length="40" name="rcvprcmaint" type="boolean"/>
+        <element label="list Receive+process &amp; Maintenance issues:" max_length="4000" name="rcvprcmaint_info" type="string"/>
+        <element hint="/u0/unibis/D3/ardaily/reject&#13;&#10;/u0/unibis/D3/apdaily/reject&#13;&#10;/u0/unibis/D3/gldaily/reject&#13;&#10;/u0/unibix/D2/import/salesan/reject" label="AR \ AP \ GL Rejects OK?" max_length="40" name="rejects" type="boolean"/>
+        <element label="list ar \ ap \ gl amounts:" max_length="4000" name="rejects_info" type="string"/>
+        <element label="Rushmore EDI \ DocOrigin OK?" max_length="40" name="rm_edi" type="boolean"/>
+        <element label="List Rushmore EDI issues:" max_length="4000" name="rm_edi_info" type="string"/>
+        <element label="Rushmore Unibis OK?" max_length="40" name="rm_unibis" type="boolean"/>
+        <element label="List Rushmore Unibis issues:" max_length="4000" name="rm_unibis_info" type="string"/>
+        <element label="All routers OK?" max_length="40" name="routers" type="boolean"/>
+        <element label="List offline routers:" max_length="4000" name="routers_info" type="string"/>
+        <element label="Server Room Check OK?" max_length="40" name="server_room" type="boolean"/>
+        <element label="List server room errors:" max_length="4000" name="server_room_info" type="string"/>
+        <element label="DB Extents \ Disk Space \ Flags OK?" max_length="40" name="sysinfo" type="boolean"/>
+        <element label="List flags \ Extents \ Disk Space errors:" max_length="4000" name="sysinfo_info" type="string"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="u_glide_date_1" type="glide_date" use_dynamic_default="true"/>
+    </element>
+</database>
