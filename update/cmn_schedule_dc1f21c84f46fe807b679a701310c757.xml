@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_schedule">
+    <cmn_schedule action="INSERT_OR_UPDATE">
+        <description>Calendar to showings the Ops Checklist</description>
+        <document/>
+        <document_key/>
+        <name>Ops Checklist</name>
+        <parent/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_schedule</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-04-06 00:14:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dc1f21c84f46fe807b679a701310c757</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Ops Checklist</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>cmn_schedule_dc1f21c84f46fe807b679a701310c757</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-04-06 00:16:53</sys_updated_on>
+        <time_zone>Australia/NSW</time_zone>
+        <type>Event Calendar</type>
+    </cmn_schedule>
+</record_update>

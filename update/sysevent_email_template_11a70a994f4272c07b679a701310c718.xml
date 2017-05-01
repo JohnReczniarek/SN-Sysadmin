@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_mema_morning_che_morning_checklist_table</collection>
+        <message/>
+        <message_html><![CDATA[<table style="height: 57px; border-color: #000000;" border="solid" width="1000">
+<tbody>
+<tr>
+<td><font size="5"><strong>Morning Checklist ${u_glide_date_1}&nbsp;</strong></font><br /><font size="3"><strong>Created by: ${sys_created_by}</strong></font></td>
+</tr>
+</tbody>
+</table>
+<table style="height: 900px; background-color: #e2efda; border-color: #000000;" border="1" width="1000">
+<tbody>
+<tr style="border-color: #000000;"><th>System</th><th align="left">Status</th><th>&nbsp;Comment</th></tr>
+<tr>
+<td>&nbsp;VISUAL INSPECTION OF COMPUTER ROOM:&nbsp;</td>
+<td>&nbsp;${server_room}</td>
+<td>${server_room_info}</td>
+</tr>
+<tr>
+<td>&nbsp;IPMONITOR:&nbsp;</td>
+<td>&nbsp;${ipmon}</td>
+<td>&nbsp;${ipmon_info}</td>
+</tr>
+<tr>
+<td>&nbsp;ROUTERS DOWN:</td>
+<td>&nbsp;${routers}</td>
+<td>&nbsp;${routers_info}</td>
+</tr>
+<tr>
+<td>&nbsp;CHECK ALERTS MAILBOX:&nbsp;</td>
+<td>&nbsp;${alertmb}</td>
+<td>&nbsp;${alertmb_info}</td>
+</tr>
+<tr>
+<td>&nbsp;SYSINFO &ndash; EOD, EXTENTS, DISK UTILISATION, PROROUTER:&nbsp;</td>
+<td>&nbsp;${sysinfo}</td>
+<td>&nbsp;${sysinfo_info}</td>
+</tr>
+<tr>
+<td>&nbsp;LOTUS:&nbsp;</td>
+<td>&nbsp;${lotus}</td>
+<td>&nbsp;${lotus_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BI &ndash; CHECK SCHEDULED REPORTS:</td>
+<td>&nbsp;${bi}</td>
+<td>&nbsp;${bi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;NATIONAL UNIBIS:&nbsp;</td>
+<td>&nbsp;${natunibis}</td>
+<td>&nbsp;${natunibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;EDI (DOCORIGIN DIRECTORY ISSUES):&nbsp;</td>
+<td>&nbsp;${edi}</td>
+<td>&nbsp;${edi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;B2BE:</td>
+<td>&nbsp;${b2be}</td>
+<td>&nbsp;${b2be_info}</td>
+</tr>
+<tr>
+<td>&nbsp;RUSHMORE EDI:&nbsp;</td>
+<td>&nbsp;${rm_edi}</td>
+<td>&nbsp;${rm_edi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;RUSHMORE SALES REPORT:&nbsp;</td>
+<td>&nbsp;${rm_unibis}</td>
+<td>&nbsp;${rm_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;AUTOTICS:&nbsp;</td>
+<td>&nbsp;${autotics}</td>
+<td>&nbsp;${autotics_info}</td>
+</tr>
+<tr>
+<td>&nbsp;MAINTARC:&nbsp;</td>
+<td>&nbsp;${maintarc}</td>
+<td>&nbsp;${maintarc_info}</td>
+</tr>
+<tr>
+<td>&nbsp;CHECK RECV+PROC &amp; MAINT SENT:&nbsp;</td>
+<td>&nbsp;${rcvprcmaint}</td>
+<td>&nbsp;${rcvprcmaint_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRUN:</td>
+<td>&nbsp;${brun}</td>
+<td>&nbsp;${brun_info}</td>
+</tr>
+<tr>
+<td>&nbsp;CHECK REJECTS:&nbsp;</td>
+<td>&nbsp;${rejects}</td>
+<td>&nbsp;${rejects_info}</td>
+</tr>
+<tr>
+<td>&nbsp;Operational monitoring of CPM application:&nbsp;</td>
+<td>&nbsp;${cpm}</td>
+<td>&nbsp;${cpm_info}</td>
+</tr>
+<tr>
+<td>&nbsp;Failed Backups - Overnight:&nbsp;</td>
+<td>&nbsp;${bupson}</td>
+<td>&nbsp;${bupson_info}</td>
+</tr>
+<tr>
+<td>&nbsp;Failed Backups - Major:&nbsp;</td>
+<td>&nbsp;${bupsm}</td>
+<td>&nbsp;${bupsm_info}</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Morning Checlist</name>
+        <sms_alternate/>
+        <subject>Morning Checklist</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-04-09 23:14:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>11a70a994f4272c07b679a701310c718</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Morning Checlist</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_email_template_11a70a994f4272c07b679a701310c718</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-05-01 00:44:05</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

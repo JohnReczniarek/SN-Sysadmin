@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["1003a6f14f353e807b679a701310c73b"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["9796268c4faaf200f19fd0311310c793"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -12,10 +12,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description>Grabs the information that is input into the Morning Checklist and created emails + incidents.</description>
-        <expected_sequences>d803a6f14f353e807b679a701310c73a,d003a6f14f353e807b679a701310c73b,37e816464f793e807b679a701310c7aa,9803a6f14f353e807b679a701310c73c,1003a6f14f353e807b679a701310c73b</expected_sequences>
+        <expected_sequences>5b96268c4faaf200f19fd0311310c793,1796268c4faaf200f19fd0311310c790,9f96268c4faaf200f19fd0311310c793,9796268c4faaf200f19fd0311310c793</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type>relative_duration</expected_time_type>
-        <full_sequences>d803a6f14f353e807b679a701310c73a,d003a6f14f353e807b679a701310c73b,37e816464f793e807b679a701310c7aa,9803a6f14f353e807b679a701310c73c,1003a6f14f353e807b679a701310c73b</full_sequences>
+        <full_sequences>5b96268c4faaf200f19fd0311310c793,1796268c4faaf200f19fd0311310c790,9f96268c4faaf200f19fd0311310c793,9796268c4faaf200f19fd0311310c793</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Morning Checklist Workflow</name>
@@ -30,16 +30,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">d803a6f14f353e807b679a701310c73a</start>
+        <start display_value="Begin">5b96268c4faaf200f19fd0311310c793</start>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>9003a6f14f353e807b679a701310c73a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_updated_by>tstjreczniarek</sys_updated_by>
-        <sys_updated_on>2017-04-04 03:15:24</sys_updated_on>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>db96268c4faaf200f19fd0311310c78f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-05-01 03:07:21</sys_updated_on>
         <table>x_mema_morning_che_morning_checklist_table</table>
         <timezone>Australia/NSW</timezone>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="Morning Checklist Workflow">2438293d4fb13e807b679a701310c735</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -84,20 +84,20 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>d803a6f14f353e807b679a701310c73a</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>5b96268c4faaf200f19fd0311310c793</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Morning Checklist Workflow">9003a6f14f353e807b679a701310c73a</workflow_version>
+        <workflow_version display_value="Morning Checklist Workflow">db96268c4faaf200f19fd0311310c78f</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">d803a6f14f353e807b679a701310c73a</activity>
+        <activity display_value="Begin">5b96268c4faaf200f19fd0311310c793</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -111,11 +111,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>5c03a6f14f353e807b679a701310c73a</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>db96268c4faaf200f19fd0311310c793</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -133,29 +133,29 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>9803a6f14f353e807b679a701310c73c</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9f96268c4faaf200f19fd0311310c793</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-04-03 23:49:12</sys_updated_on>
+        <sys_updated_on>2017-05-01 03:07:14</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Morning Checklist Workflow">9003a6f14f353e807b679a701310c73a</workflow_version>
-        <x>623</x>
+        <workflow_version display_value="Morning Checklist Workflow">db96268c4faaf200f19fd0311310c78f</workflow_version>
+        <x>622</x>
         <y>535</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9803a6f14f353e807b679a701310c73c</document_key>
+        <document_key>9f96268c4faaf200f19fd0311310c793</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>1c03a6f14f353e807b679a701310c73c</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1396268c4faaf200f19fd0311310c794</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-04-03 23:49:12</sys_updated_on>
+        <sys_updated_on>2017-05-01 03:07:14</sys_updated_on>
         <value>var checklist = new GlideRecord('x_mema_morning_che_morning_checklist_table');&#13;
 checklist.orderByDesc('sys_created_on');&#13;
 checklist.chooseWindow(0,1);&#13;
@@ -163,11 +163,11 @@ checklist.query();&#13;
 if (checklist.next()) {&#13;
 	var inc = new GlideRecord('incident');&#13;
 	var caller_id = checklist.getValue('sys_created_by');&#13;
-	if (checklist.getValue("alertmb") == false){&#13;
+	if (checklist.getValue("alertmb") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("alertmb_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Alerts Mailbox";&#13;
 		inc.urgency = 3;&#13;
@@ -175,11 +175,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("autotics") == false){&#13;
+	if (checklist.getValue("autotics") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("autotics_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Autotics";&#13;
 		inc.urgency = 3;&#13;
@@ -187,23 +187,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("b2be") == false){&#13;
-		inc.newRecord();&#13;
-		inc.initialize();&#13;
-		inc.short_description = checklist.getValue("b2be_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
-		inc.category = "Morning Checklist";&#13;
-		inc.subcategory = "B2Be";&#13;
-		inc.urgency = 3;&#13;
-		inc.priority = 3;	&#13;
-		inc.callerid = caller_id;&#13;
-		inc.update();&#13;
-	}&#13;
-	if (checklist.getValue("bi") == false){&#13;
+	if (checklist.getValue("bi") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("bi_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "BI Reports";&#13;
 		inc.urgency = 3;&#13;
@@ -211,11 +199,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("brun") == false){&#13;
+	if (checklist.getValue("brun") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("brun_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "BRUN";&#13;
 		inc.urgency = 3;&#13;
@@ -223,11 +211,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("bupsm") == false){&#13;
+	if (checklist.getValue("bupsm") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("bupsm_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Backups Major";&#13;
 		inc.urgency = 3;&#13;
@@ -235,11 +223,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("bupson") == false){&#13;
+	if (checklist.getValue("bupson") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("bupson_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Backups Overnight";&#13;
 		inc.urgency = 3;&#13;
@@ -247,11 +235,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("cpm") == false){&#13;
+	if (checklist.getValue("cpm") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("cpm_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "CPM";&#13;
 		inc.urgency = 3;&#13;
@@ -259,11 +247,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("edi") == false){&#13;
+	if (checklist.getValue("edi") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("edi_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "EDI \ DocOrigin";&#13;
 		inc.urgency = 3;&#13;
@@ -271,11 +259,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("ipmon") == false){&#13;
+	if (checklist.getValue("ipmon") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("ipmon_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "IP Monitor";&#13;
 		inc.urgency = 3;&#13;
@@ -283,11 +271,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("lotus") == false){&#13;
+	if (checklist.getValue("lotus") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("lotus_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Lotus Notes";&#13;
 		inc.urgency = 3;&#13;
@@ -295,11 +283,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("maintarc") == false){&#13;
+	if (checklist.getValue("maintarc") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("maintarc_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Maintarc";&#13;
 		inc.urgency = 3;&#13;
@@ -307,11 +295,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("natunibis") == false){&#13;
+	if (checklist.getValue("natunibis") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("natunibis_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "National Unibis";&#13;
 		inc.urgency = 3;&#13;
@@ -319,11 +307,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("rcvprcmaint") == false){&#13;
+	if (checklist.getValue("rcvprcmaint") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("rcvprcmaint_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "RCV+PROC &amp; MAINTx";&#13;
 		inc.urgency = 3;&#13;
@@ -331,11 +319,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("rejects") == false){&#13;
+	if (checklist.getValue("rejects") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("rejects_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Rejects";&#13;
 		inc.urgency = 3;&#13;
@@ -343,11 +331,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("rm_edi") == false){&#13;
+	if (checklist.getValue("rm_edi") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("rm_edi_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Rushmore EDI";&#13;
 		inc.urgency = 3;&#13;
@@ -355,11 +343,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("rm_unibis") == false){&#13;
+	if (checklist.getValue("rm_unibis") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("rm_unibis_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Rushmore Sales";&#13;
 		inc.urgency = 3;&#13;
@@ -367,11 +355,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("routers") == false){&#13;
+	if (checklist.getValue("routers") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("routers_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Service Desk";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Routers Down";&#13;
 		inc.urgency = 3;&#13;
@@ -379,11 +367,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("sysinfo") == false){&#13;
+	if (checklist.getValue("sysinfo") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("sysinfo_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "System Info";&#13;
 		inc.urgency = 3;&#13;
@@ -391,11 +379,11 @@ if (checklist.next()) {&#13;
 		inc.callerid = caller_id;&#13;
 		inc.update();&#13;
 	}&#13;
-	if (checklist.getValue("server_room") == false){&#13;
+	if (checklist.getValue("server_room") == 'Error'){&#13;
 		inc.newRecord();&#13;
 		inc.initialize();&#13;
 		inc.short_description = checklist.getValue("server_room_info");&#13;
-		inc.assigned_to.setDisplayValue('john.reczniarek');&#13;
+		inc.assignment_group = "Sys Admin";&#13;
 		inc.category = "Morning Checklist";&#13;
 		inc.subcategory = "Server Room";&#13;
 		inc.urgency = 3;&#13;
@@ -407,7 +395,7 @@ if (checklist.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create Incidents">9803a6f14f353e807b679a701310c73c</activity>
+        <activity display_value="Create Incidents">9f96268c4faaf200f19fd0311310c793</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -421,187 +409,11 @@ if (checklist.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>dc03a6f14f353e807b679a701310c73c</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>d396268c4faaf200f19fd0311310c794</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>4</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Email IT Dept</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage/>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>d003a6f14f353e807b679a701310c73b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:18:29</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="Morning Checklist Workflow">9003a6f14f353e807b679a701310c73a</workflow_version>
-        <x>165</x>
-        <y>200</y>
-    </wf_activity>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d003a6f14f353e807b679a701310c73b</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>5403a6f14f353e807b679a701310c73b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:31:49</sys_updated_on>
-        <value>3585b05e4f91b2807b679a701310c7eb</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d003a6f14f353e807b679a701310c73b</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>1403a6f14f353e807b679a701310c73c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d003a6f14f353e807b679a701310c73b</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>9c03a6f14f353e807b679a701310c73b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <value>Morning Checklist</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d003a6f14f353e807b679a701310c73b</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>5003a6f14f353e807b679a701310c73c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:19:19</sys_updated_on>
-        <value>Morning Checklist  ${u_glide_date_1} done by: ${sys_created_by}&#13;
-&#13;
-&#13;
-Server Room Check OK?: ${server_room}&#13;
-${server_room_info}&#13;
-AR \ AP \ GL Rejects OK?: ${rejects}&#13;
-${rejects_info}&#13;
-Alerts mailbox OK?: ${alertmb}&#13;
-${alertmb_info}&#13;
-Autotics OK?: ${autotics}&#13;
-${autotics_info}&#13;
-All routers OK?: ${routers}&#13;
-${routers_info}&#13;
-B2Be working OK?: ${b2be}&#13;
-${b2be_info}&#13;
-BI Reports OK?: ${bi}&#13;
-${bi_info}&#13;
-DB Extents \ Disk Space \ Flags OK?: ${sysinfo}&#13;
-${sysinfo_info}&#13;
-EDI \ DocOrigin working OK?: ${edi}&#13;
-${edi_info}&#13;
-IP Monitor OK?: ${ipmon}&#13;
-${ipmon_info}&#13;
-Lotus Notes OK?: ${lotus}&#13;
-${lotus_info}&#13;
-Maintarc OK?: ${maintarc}&#13;
-${maintarc_info}&#13;
-Major Backups OK?: ${bupsm}&#13;
-${bupsm_info}&#13;
-National Unibis OK?: ${natunibis}&#13;
-${natunibis_info}&#13;
-Overnight Backups OK?: ${bupson}&#13;
-${bupson_info}&#13;
-Receive+process &amp; Maintenance OK?: ${rcvprcmaint}&#13;
-${rcvprcmaint_info}&#13;
-Rushmore EDI \ DocOrigin OK?: ${rm_edi}&#13;
-${rm_edi_info}&#13;
-Rushmore Unibis OK?: ${rm_unibis}&#13;
-${rm_unibis_info}&#13;
-Salesforce CPM OK?: ${cpm}&#13;
-${cpm_info}&#13;
-brun OK?: ${brun}&#13;
-${brun_info}</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d003a6f14f353e807b679a701310c73b</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>1803a6f14f353e807b679a701310c73b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>d003a6f14f353e807b679a701310c73b</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>d803a6f14f353e807b679a701310c73b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
-</value>
-        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Email IT Dept">d003a6f14f353e807b679a701310c73b</activity>
-        <condition>true</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>d403a6f14f353e807b679a701310c73c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -619,15 +431,15 @@ ${brun_info}</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>1003a6f14f353e807b679a701310c73b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9796268c4faaf200f19fd0311310c793</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:18:37</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Morning Checklist Workflow">9003a6f14f353e807b679a701310c73a</workflow_version>
+        <workflow_version display_value="Morning Checklist Workflow">db96268c4faaf200f19fd0311310c78f</workflow_version>
         <x>886</x>
         <y>712</y>
     </wf_activity>
@@ -647,231 +459,231 @@ ${brun_info}</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>37e816464f793e807b679a701310c7aa</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1796268c4faaf200f19fd0311310c790</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:19:02</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Morning Checklist Workflow">9003a6f14f353e807b679a701310c73a</workflow_version>
+        <workflow_version display_value="Morning Checklist Workflow">db96268c4faaf200f19fd0311310c78f</workflow_version>
         <x>388</x>
         <y>373</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>ad19da464f793e807b679a701310c7c0</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>5f96268c4faaf200f19fd0311310c792</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>e519da464f793e807b679a701310c7be</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9796268c4faaf200f19fd0311310c790</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value>workflow_schedule</value>
         <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>2119da464f793e807b679a701310c7bf</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>df96268c4faaf200f19fd0311310c790</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>a919da464f793e807b679a701310c7be</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>5b96268c4faaf200f19fd0311310c790</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>2d19da464f793e807b679a701310c7bf</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1b96268c4faaf200f19fd0311310c791</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
-        <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>6919da464f793e807b679a701310c7bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
         <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>a519da464f793e807b679a701310c7bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>5796268c4faaf200f19fd0311310c791</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:16:15</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value>1970-01-01 00:01:00</value>
         <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
-        <order>1320</order>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
+        <order>1310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>2919da464f793e807b679a701310c7c0</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>db96268c4faaf200f19fd0311310c791</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>6519da464f793e807b679a701310c7c0</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1796268c4faaf200f19fd0311310c792</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
         <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>d796268c4faaf200f19fd0311310c792</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>6119da464f793e807b679a701310c7c1</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1396268c4faaf200f19fd0311310c793</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>6d19da464f793e807b679a701310c7be</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1f96268c4faaf200f19fd0311310c790</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>a119da464f793e807b679a701310c7c0</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>5396268c4faaf200f19fd0311310c792</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>e919da464f793e807b679a701310c7c0</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9b96268c4faaf200f19fd0311310c792</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>ed19da464f793e807b679a701310c7bf</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9f96268c4faaf200f19fd0311310c791</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value/>
         <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>37e816464f793e807b679a701310c7aa</document_key>
+        <document_key>1796268c4faaf200f19fd0311310c790</document_key>
         <order>3000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>e119da464f793e807b679a701310c7bf</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9396268c4faaf200f19fd0311310c791</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Timer to give time for the table to update so that the script does not pull the wrong data">37e816464f793e807b679a701310c7aa</activity>
+        <activity display_value="Timer to give time for the table to update so that the script does not pull the wrong data">1796268c4faaf200f19fd0311310c790</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -885,69 +697,58 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:16</sys_created_on>
-        <sys_id>2519da464f793e807b679a701310c7c1</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>d396268c4faaf200f19fd0311310c793</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:16</sys_updated_on>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">dc03a6f14f353e807b679a701310c73c</condition>
-        <from display_value="Create Incidents">9803a6f14f353e807b679a701310c73c</from>
+        <condition display_value="Always">db96268c4faaf200f19fd0311310c793</condition>
+        <from display_value="Begin">5b96268c4faaf200f19fd0311310c793</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>1803a6f14f353e807b679a701310c73d</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1f96268c4faaf200f19fd0311310c794</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <to display_value="End">1003a6f14f353e807b679a701310c73b</to>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
+        <to display_value="Timer to give time for the table to update so that the script does not pull the wrong data">1796268c4faaf200f19fd0311310c790</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">2519da464f793e807b679a701310c7c1</condition>
-        <from display_value="Timer to give time for the table to update so that the script does not pull the wrong data">37e816464f793e807b679a701310c7aa</from>
+        <condition display_value="Always">d396268c4faaf200f19fd0311310c793</condition>
+        <from display_value="Timer to give time for the table to update so that the script does not pull the wrong data">1796268c4faaf200f19fd0311310c790</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:10:32</sys_created_on>
-        <sys_id>5469da464f793e807b679a701310c731</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:16:00</sys_updated_on>
-        <to display_value="Create Incidents">9803a6f14f353e807b679a701310c73c</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">5c03a6f14f353e807b679a701310c73a</condition>
-        <from display_value="Begin">d803a6f14f353e807b679a701310c73a</from>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>9803a6f14f353e807b679a701310c73d</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9b96268c4faaf200f19fd0311310c794</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <to display_value="Email IT Dept">d003a6f14f353e807b679a701310c73b</to>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
+        <to display_value="Create Incidents">9f96268c4faaf200f19fd0311310c793</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d403a6f14f353e807b679a701310c73c</condition>
-        <from display_value="Email IT Dept">d003a6f14f353e807b679a701310c73b</from>
+        <condition display_value="Always">d396268c4faaf200f19fd0311310c794</condition>
+        <from display_value="Create Incidents">9f96268c4faaf200f19fd0311310c793</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 22:09:25</sys_created_on>
-        <sys_id>bf1956464f793e807b679a701310c7df</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>9f96268c4faaf200f19fd0311310c794</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 22:09:25</sys_updated_on>
-        <to display_value="Timer to give time for the table to update so that the script does not pull the wrong data">37e816464f793e807b679a701310c7aa</to>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
+        <to display_value="End">9796268c4faaf200f19fd0311310c793</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-03-30 04:14:06</sys_created_on>
-        <sys_id>d003a6f14f353e807b679a701310c73a</sys_id>
+        <sys_created_on>2017-05-01 00:47:36</sys_created_on>
+        <sys_id>1f96268c4faaf200f19fd0311310c78f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-03-30 04:14:06</sys_updated_on>
-        <workflow_version display_value="Morning Checklist Workflow">9003a6f14f353e807b679a701310c73a</workflow_version>
+        <sys_updated_on>2017-05-01 00:47:36</sys_updated_on>
+        <workflow_version display_value="Morning Checklist Workflow">db96268c4faaf200f19fd0311310c78f</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=2438293d4fb13e807b679a701310c735^sys_id!=9003a6f14f353e807b679a701310c73a">
+    <wf_workflow_version action="update_multiple" query="workflow=2438293d4fb13e807b679a701310c735^sys_id!=db96268c4faaf200f19fd0311310c78f">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
