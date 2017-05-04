@@ -5,7 +5,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List alerts mailbox errors:" max_length="4000" name="alertmb_info" type="string"/>
@@ -13,7 +13,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List Autotics issues:" max_length="4000" name="autotics_info" type="string"/>
@@ -21,7 +21,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List BI report errors \ info:" max_length="4000" name="bi_info" type="string"/>
@@ -29,7 +29,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List brun issues:" max_length="4000" name="brun_info" type="string"/>
@@ -37,7 +37,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List errors with major backups:" max_length="4000" name="bupsm_info" type="string"/>
@@ -45,7 +45,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List errors with overnight backups:" max_length="4000" name="bupson_info" type="string"/>
@@ -53,7 +53,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="list issues with CPM:" max_length="4000" name="cpm_info" type="string"/>
@@ -61,7 +61,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List EDI issues:" max_length="4000" name="edi_info" type="string"/>
@@ -69,7 +69,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List IP Monitor errors:" max_length="4000" name="ipmon_info" type="string"/>
@@ -77,7 +77,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List Lotus Notes errors:" max_length="4000" name="lotus_info" type="string"/>
@@ -85,7 +85,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List Maintarc issues:" max_length="4000" name="maintarc_info" type="string"/>
@@ -93,7 +93,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List issues with National Unibis:" max_length="4000" name="natunibis_info" type="string"/>
@@ -101,7 +101,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="list Receive+process &amp; Maintenance issues:" max_length="4000" name="rcvprcmaint_info" type="string"/>
@@ -109,7 +109,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="list ar \ ap \ gl amounts:" max_length="4000" name="rejects_info" type="string"/>
@@ -117,7 +117,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List Rushmore EDI issues:" max_length="4000" name="rm_edi_info" type="string"/>
@@ -125,7 +125,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List Rushmore Unibis issues:" max_length="4000" name="rm_unibis_info" type="string"/>
@@ -133,7 +133,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List offline routers:" max_length="4000" name="routers_info" type="string"/>
@@ -141,7 +141,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List server room errors:" max_length="4000" name="server_room_info" type="string"/>
@@ -149,7 +149,7 @@
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
-                <element label="Repeat Error" sequence="2"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
         <element label="List flags \ Extents \ Disk Space errors:" max_length="4000" name="sysinfo_info" type="string"/>

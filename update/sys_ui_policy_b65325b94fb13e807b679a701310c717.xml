@@ -2,8 +2,8 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_mema_morning_che_morning_checklist_table">autotics=Error^ORautotics=^EQ<item endquery="false" field="autotics" goto="false" newquery="false" operator="=" or="false" value="Error"/>
-            <item endquery="false" field="autotics" goto="false" newquery="false" operator="=" or="true" value=""/>
+        <conditions table="x_mema_morning_che_morning_checklist_table">autotics=Error^ORautotics=Repeat Error^EQ<item endquery="false" field="autotics" goto="false" newquery="false" operator="=" or="false" value="Error"/>
+            <item endquery="false" field="autotics" goto="false" newquery="false" operator="=" or="true" value="Repeat Error"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b65325b94fb13e807b679a701310c717</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>MC-Autotics</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sys_ui_policy_b65325b94fb13e807b679a701310c717</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-05-03 23:42:48</sys_updated_on>
+        <sys_updated_on>2017-05-04 05:28:44</sys_updated_on>
         <table>x_mema_morning_che_morning_checklist_table</table>
         <ui_type>0</ui_type>
         <view/>
