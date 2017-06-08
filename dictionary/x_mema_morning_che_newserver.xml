@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="NewServer" max_length="40" name="x_mema_morning_che_newserver" type="collection">
+        <element label="Applications" max_length="255" name="applications" type="string"/>
+        <element default="true" label="Backup" max_length="40" name="backup" type="boolean"/>
+        <element label="BackupInfo" max_length="255" name="backupinfo" type="string"/>
+        <element default="true" label="IPMonitor" max_length="40" name="basic_monitoring" type="boolean"/>
+        <element default="Description of what the server does \ what it will be used for" label="Description" max_length="255" name="description" type="string"/>
+        <element label="IP Address" max_length="15" name="ip_address" type="string"/>
+        <element default="Processes / CPU / RAM / etc." label="advMonitoring" max_length="255" name="monitoring" type="string"/>
+        <element label="OS" max_length="40" name="os" type="string"/>
+        <element default="Any other useful information you can think of!" label="Other" max_length="255" name="other" type="string"/>
+        <element label="Server Name" max_length="40" name="server_name" type="string"/>
+    </element>
+</database>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" type="collection">
-        <element choice="3" default="Error" hint="Check emails for alerts" label="Alertmb" max_length="40" name="alertmb" type="choice">
+        <element choice="3" default="Error" hint="Check emails for alerts" label="Alerts Mailbox" max_length="40" name="alertmb" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
                 <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List alerts mailbox errors:" max_length="4000" name="alertmb_info" type="string"/>
+        <element label="List alerts mailbox errors :" max_length="4000" name="alertmb_info" type="string"/>
         <element choice="3" default="Error" hint="Email mm.sdesk@mmem.com.au and wait for response" label="Autotics" max_length="40" name="autotics" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
@@ -33,7 +33,7 @@
             </choice>
         </element>
         <element label="List brun issues:" max_length="4000" name="brun_info" type="string"/>
-        <element choice="3" default="Error" display="true" label="Bupsm" max_length="40" name="bupsm" type="choice">
+        <element choice="3" default="Error" display="true" label="Veaam Major" max_length="40" name="bupsm" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
@@ -41,7 +41,7 @@
             </choice>
         </element>
         <element label="List errors with major backups:" max_length="4000" name="bupsm_info" type="string"/>
-        <element choice="3" default="Error" label="Bupson" max_length="40" name="bupson" type="choice">
+        <element choice="3" default="Error" label="Veeam Overnight" max_length="40" name="bupson" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
@@ -65,7 +65,7 @@
             </choice>
         </element>
         <element label="List EDI issues:" max_length="4000" name="edi_info" type="string"/>
-        <element choice="3" default="Error" hint="Check https://inf01 " label="Ipmon" max_length="40" name="ipmon" type="choice">
+        <element choice="3" default="Error" hint="Check https://inf01 " label="IP Monitor" max_length="40" name="ipmon" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
@@ -97,7 +97,7 @@
             </choice>
         </element>
         <element label="List issues with National Unibis:" max_length="4000" name="natunibis_info" type="string"/>
-        <element choice="3" default="Error" hint="Check Email" label="Rcvprcmaint" max_length="40" name="rcvprcmaint" type="choice">
+        <element choice="3" default="Error" hint="Check Email" label="Maintenance S/R" max_length="40" name="rcvprcmaint" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
@@ -113,7 +113,7 @@
             </choice>
         </element>
         <element label="list ar \ ap \ gl amounts:" max_length="4000" name="rejects_info" type="string"/>
-        <element choice="3" default="Error" label="Rm edi" max_length="40" name="rm_edi" type="choice">
+        <element choice="3" default="Error" label="Rushmore edi" max_length="40" name="rm_edi" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
@@ -121,7 +121,7 @@
             </choice>
         </element>
         <element label="List Rushmore EDI issues:" max_length="4000" name="rm_edi_info" type="string"/>
-        <element choice="3" default="Error" hint=". unibis_live&#13;&#10;ugo_live.sh&#13;&#10;ei511&#13;&#10;ei209&#13;&#10;jsjb -&gt; ei210, ei240, ei241&#13;&#10;oe459" label="Rm unibis" max_length="40" name="rm_unibis" type="choice">
+        <element choice="3" default="Error" hint=". unibis_live&#13;&#10;ugo_live.sh&#13;&#10;ei511&#13;&#10;ei209&#13;&#10;jsjb -&gt; ei210, ei240, ei241&#13;&#10;oe459" label="Rushmore unibis" max_length="40" name="rm_unibis" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
@@ -152,7 +152,7 @@
                 <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List flags \ Extents \ Disk Space errors:" max_length="4000" name="sysinfo_info" type="string"/>
+        <element label="List flags \ Extents \ Disk Space errors: " max_length="4000" name="sysinfo_info" type="string"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="u_glide_date_1" type="glide_date" use_dynamic_default="true"/>
     </element>
 </database>
