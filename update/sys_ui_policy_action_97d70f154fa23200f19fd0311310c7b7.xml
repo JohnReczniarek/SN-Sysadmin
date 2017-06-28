@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-05-05 00:25:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>97d70f154fa23200f19fd0311310c7b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>monitoring</sys_name>

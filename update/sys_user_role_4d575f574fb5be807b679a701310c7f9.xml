@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-04-03 23:53:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4d575f574fb5be807b679a701310c7f9</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>x_mema_sysadmin.admin</sys_name>

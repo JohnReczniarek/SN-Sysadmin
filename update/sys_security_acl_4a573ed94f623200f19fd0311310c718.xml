@@ -13,7 +13,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-05-04 23:13:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4a573ed94f623200f19fd0311310c718</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_mema_morning_che_newserver</sys_name>

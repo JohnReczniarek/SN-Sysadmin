@@ -7,23 +7,23 @@
                 <element label="Yes" value="Yes"/>
             </choice>
         </element>
-        <element label="Backup \ Restore plan" max_length="1024" name="backup" type="string"/>
+        <element label="Backup \ Restore plan" mandatory="true" max_length="1024" name="backup" type="string"/>
         <element label="Company" max_length="40" name="company" type="string"/>
-        <element label="Short description of the change being made" max_length="255" name="desc" type="string"/>
-        <element label="Email Address" max_length="100" name="email_address" type="email"/>
-        <element label="Finish (24h time)" max_length="40" name="finish" type="glide_date_time"/>
-        <element label="Server name \ Where the change is being applied" max_length="64" name="loc" type="string"/>
-        <element choice="3" default="Yes" label="Outage Required" max_length="255" name="outage" type="choice">
+        <element label="Short description of the change being made" mandatory="true" max_length="255" name="desc" type="string"/>
+        <element label="Email Address" mandatory="true" max_length="100" name="email_address" type="email"/>
+        <element label="Finish (24h time)" mandatory="true" max_length="40" name="finish" type="glide_date_time"/>
+        <element label="Server name \ Where the change is being applied" mandatory="true" max_length="64" name="loc" type="string"/>
+        <element choice="3" default="yes" label="Outage Required" max_length="255" name="outage" type="choice">
             <choice>
                 <element label="Yes" sequence="0" value="yes"/>
                 <element label="No" sequence="1" value="no"/>
             </choice>
         </element>
         <element label="Phone Number" max_length="13" name="phone_number" type="string"/>
-        <element label="Name" max_length="40" name="requester" type="string"/>
-        <element label="Start (24h time)" max_length="40" name="start" type="glide_date_time"/>
-        <element label="Brief summary of steps that are to be taken" max_length="1024" name="steps" type="string"/>
-        <element label="Test plan " max_length="1025" name="test" type="string"/>
-        <element label="Why is the change being made" max_length="255" name="why" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="requester" type="string"/>
+        <element label="Start (24h time)" mandatory="true" max_length="40" name="start" type="glide_date_time"/>
+        <element label="Brief summary of steps that are to be taken" mandatory="true" max_length="1024" name="steps" type="string"/>
+        <element label="Test plan" mandatory="true" max_length="1025" name="test" type="string"/>
+        <element label="Why is the change being made" mandatory="true" max_length="255" name="why" type="string"/>
     </element>
 </database>

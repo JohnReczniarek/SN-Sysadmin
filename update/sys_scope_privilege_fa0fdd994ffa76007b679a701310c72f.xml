@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-05-17 03:03:01</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fa0fdd994ffa76007b679a701310c72f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ScopedWorkflow</sys_name>

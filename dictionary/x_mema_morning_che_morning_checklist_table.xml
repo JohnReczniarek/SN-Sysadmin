@@ -152,7 +152,7 @@
                 <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List flags \ Extents \ Disk Space errors: " max_length="4000" name="sysinfo_info" type="string"/>
+        <element label="List flags \ Extents \ Disk Space errors:" max_length="4000" name="sysinfo_info" type="string"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="u_glide_date_1" type="glide_date" use_dynamic_default="true"/>
     </element>
 </database>

@@ -10,7 +10,7 @@
         <sys_class_name>cmn_schedule</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-04-06 00:14:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dc1f21c84f46fe807b679a701310c757</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Ops Checklist</sys_name>

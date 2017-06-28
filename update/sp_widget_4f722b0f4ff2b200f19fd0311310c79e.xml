@@ -288,7 +288,7 @@
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-05-22 23:06:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f722b0f4ff2b200f19fd0311310c79e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>jumpbox</sys_name>

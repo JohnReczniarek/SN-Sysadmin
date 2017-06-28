@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-03-29 23:35:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ee1321b94fb13e807b679a701310c7e2</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>alertmb_info</sys_name>

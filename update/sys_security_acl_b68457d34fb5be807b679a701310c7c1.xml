@@ -13,7 +13,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-04-03 23:42:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b68457d34fb5be807b679a701310c7c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>incident</sys_name>

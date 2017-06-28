@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>john.reczniarek</sys_created_by>
             <sys_created_on>2017-05-05 00:17:24</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>f30603d14fa23200f19fd0311310c74c</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>IPMonitor</sys_name>

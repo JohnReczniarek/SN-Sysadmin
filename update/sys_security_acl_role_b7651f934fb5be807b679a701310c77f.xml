@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-04-03 23:45:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b7651f934fb5be807b679a701310c77f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>.x_mema_morning_che.user</sys_name>

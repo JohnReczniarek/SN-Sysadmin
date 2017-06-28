@@ -29,13 +29,27 @@
             <sys_updated_by>john.reczniarek</sys_updated_by>
             <sys_updated_on>2017-05-11 23:31:58</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-06-28 05:04:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90bd4a3e4f2b7a00f19fd0311310c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_mema_morning_che_jumpbox" name="x_mema_morning_che_jumpbox" sys_domain="global" view="Default view">a28eb62b4f2ab200f19fd0311310c7df</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_mema_morning_che_jumpbox" sys_domain="global" view="Default view">0c2e362b4f2ab200f19fd0311310c7e0</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-06-28 05:04:47</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_mema_morning_che_jumpbox</name>
             <roles/>
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>john.reczniarek</sys_created_by>
             <sys_created_on>2017-05-11 23:30:53</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a28eb62b4f2ab200f19fd0311310c7df</sys_id>

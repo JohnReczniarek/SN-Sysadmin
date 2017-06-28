@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>john.reczniarek</sys_created_by>
             <sys_created_on>2017-05-11 23:26:06</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>647d322b4f2ab200f19fd0311310c74a</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Start (24h time)</sys_name>
