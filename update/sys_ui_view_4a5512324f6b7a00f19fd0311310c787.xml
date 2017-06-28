@@ -7,18 +7,18 @@
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2017-06-28 05:04:15</sys_created_on>
+        <sys_created_on>2017-06-28 05:38:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>049d863e4f2b7a00f19fd0311310c791</sys_id>
+        <sys_id>4a5512324f6b7a00f19fd0311310c787</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Test View</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
-        <sys_update_name>sys_ui_view_049d863e4f2b7a00f19fd0311310c791</sys_update_name>
+        <sys_update_name>sys_ui_view_4a5512324f6b7a00f19fd0311310c787</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-06-28 05:04:15</sys_updated_on>
+        <sys_updated_on>2017-06-28 05:38:14</sys_updated_on>
         <title>Test View</title>
         <user/>
     </sys_ui_view>

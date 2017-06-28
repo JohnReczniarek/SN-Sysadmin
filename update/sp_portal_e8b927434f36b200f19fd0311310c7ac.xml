@@ -19,7 +19,7 @@
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-05-22 23:38:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e8b927434f36b200f19fd0311310c7ac</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Jumpbox</sys_name>

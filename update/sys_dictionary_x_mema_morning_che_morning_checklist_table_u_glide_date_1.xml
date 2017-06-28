@@ -52,7 +52,7 @@
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-03-29 23:28:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>dd9dc63e4f2b7a00f19fd0311310c73a</sys_id>
+        <sys_id>675552324f6b7a00f19fd0311310c718</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Date</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sys_dictionary_x_mema_morning_che_morning_checklist_table_u_glide_date_1</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-06-28 05:04:37</sys_updated_on>
+        <sys_updated_on>2017-06-28 05:38:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
