@@ -5,83 +5,69 @@
             <element>server_name</element>
             <position>0</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2017-05-05 00:47:15</sys_created_on>
-            <sys_id>cdec47954fa23200f19fd0311310c79e</sys_id>
+            <sys_created_on>2017-07-04 05:23:17</sys_created_on>
+            <sys_id>297bc1bc4f3bfa00f19fd0311310c797</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:47:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>1</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2017-05-05 00:47:15</sys_created_on>
-            <sys_id>41ec47954fa23200f19fd0311310c79f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:47:15</sys_updated_on>
+            <sys_updated_on>2017-07-04 05:23:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ip_address</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2017-05-05 00:47:15</sys_created_on>
-            <sys_id>c1ec47954fa23200f19fd0311310c79f</sys_id>
+            <sys_created_on>2017-07-04 05:23:17</sys_created_on>
+            <sys_id>a97bc1bc4f3bfa00f19fd0311310c797</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:47:15</sys_updated_on>
+            <sys_updated_on>2017-07-04 05:23:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2017-05-05 00:47:15</sys_created_on>
-            <sys_id>45ec47954fa23200f19fd0311310c79f</sys_id>
+            <sys_created_on>2017-07-04 05:23:17</sys_created_on>
+            <sys_id>2d7bc1bc4f3bfa00f19fd0311310c797</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:47:15</sys_updated_on>
+            <sys_updated_on>2017-07-04 05:23:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-04 05:23:17</sys_created_on>
+            <sys_id>ad7bc1bc4f3bfa00f19fd0311310c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-04 05:23:17</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>basic_monitoring</element>
             <position>4</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2017-05-05 00:47:15</sys_created_on>
-            <sys_id>c5ec47954fa23200f19fd0311310c79f</sys_id>
+            <sys_created_on>2017-07-04 05:23:17</sys_created_on>
+            <sys_id>217bc1bc4f3bfa00f19fd0311310c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:47:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>backup</element>
-            <position>5</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2017-05-05 00:47:15</sys_created_on>
-            <sys_id>49ec47954fa23200f19fd0311310c79f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_newserver" sys_domain="global" view="Default view">ac7607154fa23200f19fd0311310c794</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:47:15</sys_updated_on>
+            <sys_updated_on>2017-07-04 05:23:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -97,7 +83,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ac7607154fa23200f19fd0311310c794</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Basic Info</sys_name>
             <sys_overrides/>
             <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
@@ -106,7 +92,7 @@
             <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
             <sys_update_name>sys_ui_section_ac7607154fa23200f19fd0311310c794</sys_update_name>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2017-05-05 00:19:05</sys_updated_on>
+            <sys_updated_on>2017-07-04 05:23:17</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

@@ -34,12 +34,12 @@
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-06-22 06:03:08</sys_created_on>
         <sys_id>5081afb44fabf600f19fd0311310c7ce</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-06-22 06:05:22</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>tim.walker</sys_updated_by>
+        <sys_updated_on>2017-07-06 23:42:53</sys_updated_on>
         <table>x_mema_morning_che_morning_checklist_table</table>
         <timezone>Australia/NSW</timezone>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Morning Checklist Workflow">2438293d4fb13e807b679a701310c735</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
