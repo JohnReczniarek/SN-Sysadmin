@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ops_Calendar" max_length="40" name="x_mema_morning_che_ops_calendar" type="collection">
+        <element label="Activity" max_length="1024" name="activity" type="string"/>
+        <element label="CustDays" max_length="40" name="custdays" type="integer"/>
+        <element choice="3" default="Weekdays" label="CustList" max_length="40" name="custlist" type="choice">
+            <choice>
+                <element label="Weekdays" sequence="10" value="Weekdays"/>
+                <element label="Weekends" sequence="20" value="Weekends"/>
+            </choice>
+        </element>
+        <element choice="3" default="Days" label="CustPeriod" max_length="40" name="custperiod" type="choice">
+            <choice>
+                <element label="Days" sequence="10" value="Days"/>
+                <element label="Months" sequence="20" value="Months"/>
+                <element label="Weeks" sequence="30" value="Weeks"/>
+                <element label="Years" sequence="40" value="Years"/>
+            </choice>
+        </element>
+        <element choice="3" default="Please Pick One" label="CustStart" max_length="40" name="custstart" type="choice">
+            <choice>
+                <element label="On" sequence="10" value="On"/>
+                <element label="Every" sequence="20" value="Every"/>
+            </choice>
+        </element>
+        <element label="Finish Time" max_length="40" name="finish_time" type="glide_date_time"/>
+        <element label="Remind" max_length="40" name="remind" type="string"/>
+        <element choice="1" label="Repeat" max_length="40" name="repeat" type="choice">
+            <choice>
+                <element label="Daily" sequence="10" value="Daily"/>
+                <element label="Weekly" sequence="20" value="Weekly"/>
+                <element label="Monthly" sequence="30" value="Monthly"/>
+                <element label="Custom..." sequence="40" value="Custom"/>
+            </choice>
+        </element>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element choice="3" default="task" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Reminder" sequence="10" value="reminder"/>
+                <element label="Task" sequence="20" value="task"/>
+                <element label="Meeting" sequence="30" value="meeting"/>
+                <element label="Leave" sequence="40" value="Leave"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -97,6 +97,14 @@
             </choice>
         </element>
         <element label="List issues with National Unibis:" max_length="4000" name="natunibis_info" type="string"/>
+        <element choice="3" default="Error" label="PIM" max_length="40" name="pim" type="choice">
+            <choice>
+                <element label="OK" sequence="0" value="OK"/>
+                <element label="Error" sequence="1" value="Error"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="Error with PIM" max_length="4000" name="pim_info" type="string"/>
         <element choice="3" default="Error" hint="Check Email" label="Maintenance S/R" max_length="40" name="rcvprcmaint" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>

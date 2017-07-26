@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="custdays" table="x_mema_morning_che_ops_calendar" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>20</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9110f8434f33f2407b679a701310c702</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:12:58</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49ef28434f33f2407b679a701310c7e8</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>20</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6610b8434f33f2407b679a701310c7ab</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1eefa0cf4fffb2407b679a701310c767</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4ff68434f33f2407b679a701310c718</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>13th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>3</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85ff288b4fffb2407b679a701310c75c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>14th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>4</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2ffa8434f33f2407b679a701310c7fa</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>15th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>5</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3ff2c034f33f2407b679a701310c757</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>16th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>6</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9500b8434f33f2407b679a701310c7aa</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>17th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>7</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae0078434f33f2407b679a701310c73f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>18th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>8</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d700b8434f33f2407b679a701310c7cd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>19</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>9</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>541078434f33f2407b679a701310c740</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1st</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>10</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2af688f4fffb2407b679a701310c7b3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>21</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>12</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb1078434f33f2407b679a701310c70f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>22</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>13</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8520b8434f33f2407b679a701310c76b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>23</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>14</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b203c034f33f2407b679a701310c758</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>24</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>15</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c30b8434f33f2407b679a701310c76b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>25</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>16</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55303c434f33f2407b679a701310c7c6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>26</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>17</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a303c434f33f2407b679a701310c726</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>26</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>27</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>18</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f307c434f33f2407b679a701310c742</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>27</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>28</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>19</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec40f8434f33f2407b679a701310c7dc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>28</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>29</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>20</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:10:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a403c434f33f2407b679a701310c7ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>29</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2nd</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>21</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cbfa48b4fffb2407b679a701310c751</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>30</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>22</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43403c434f33f2407b679a701310c713</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>31</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>23</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:11:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64503c434f33f2407b679a701310c792</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>31</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3rd</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>24</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4bf28434f33f2407b679a701310c7e7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>25</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85bf24434f33f2407b679a701310c7c6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>26</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9bfe4434f33f2407b679a701310c7d4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>27</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6bf68434f33f2407b679a701310c70c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>28</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87bf68434f33f2407b679a701310c715</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>29</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8edf68434f33f2407b679a701310c70c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>custdays</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9th</label>
+            <language>en</language>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sequence>30</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:09:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fdf68434f33f2407b679a701310c750</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>custdays</element>
+            <name>x_mema_morning_che_ops_calendar</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-07-11 03:08:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dcbf64434f33f2407b679a701310c730</sys_id>
+            <sys_mod_count>90</sys_mod_count>
+            <sys_name>custdays</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_ops_calendar_custdays</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-07-11 03:28:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
