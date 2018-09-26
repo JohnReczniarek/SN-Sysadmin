@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="3f035828db282f000aa117564a961966" sys_domain="global" table="x_mema_morning_che_new_server" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>f2faec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>1</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>76faec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <position>2</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>f6faec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zone</element>
+            <position>3</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>7afaec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>4</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>fafaec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>7efaec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>critical_system</element>
+            <position>6</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>fefaec1ddb30670011e4e4340596191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>power_state</element>
+            <position>7</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>72faec1ddb30670011e4e4340596191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>f2faec1ddb30670011e4e4340596191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operating_system</element>
+            <position>9</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>76faec1ddb30670011e4e4340596191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <position>10</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:43:26</sys_created_on>
+            <sys_id>f6faec1ddb30670011e4e4340596191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_new_server" sys_domain="global" view="Default view">3f035828db282f000aa117564a961966</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_mema_morning_che_new_server</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-11 05:47:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f035828db282f000aa117564a961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_mema_morning_che_new_server</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_ui_section_3f035828db282f000aa117564a961966</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-11 05:47:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

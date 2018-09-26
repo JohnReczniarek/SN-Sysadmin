@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_mema_morning_che_newserver</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -93,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1fcab2114fa23200f19fd0311310c732</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>New_Server</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
@@ -101,8 +102,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sysevent_email_action_1fcab2114fa23200f19fd0311310c732</sys_update_name>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-07-04 05:26:57</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-07-26 12:16:05</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

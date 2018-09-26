@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_mema_morning_che_server_register" label="New Server" max_length="40" name="x_mema_morning_che_new_server" type="collection">
+        <element choice="1" label="Backup Required" mandatory="true" max_length="40" name="backup_required" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element choice="1" label="Backup Type" max_length="40" name="backup_type" type="choice">
+            <choice>
+                <element label="Application Server" value="app"/>
+                <element label="Infrastructure Server" value="infra"/>
+                <element label="Other" value="other"/>
+            </choice>
+        </element>
+        <element label="Other Drives" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element default="true" label="C Drive" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element label="Services" max_length="40" name="u_boolean_3" type="boolean"/>
+        <element default="true" label="Ping" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element label="List Required Services" max_length="200" name="u_string_5" type="string"/>
+        <element label="List Required Drives" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>

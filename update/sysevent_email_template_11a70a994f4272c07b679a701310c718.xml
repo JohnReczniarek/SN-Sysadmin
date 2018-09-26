@@ -2,17 +2,22 @@
 <record_update table="sysevent_email_template">
     <sysevent_email_template action="INSERT_OR_UPDATE">
         <collection>x_mema_morning_che_morning_checklist_table</collection>
+        <email_layout/>
         <message/>
         <message_html><![CDATA[<table style="height: 57px; border-color: #000000;" border="solid" width="1000">
 <tbody>
 <tr>
-<td><font size="5"><strong>Morning Checklist ${u_glide_date_1}&nbsp;</strong></font><br /><font size="3"><strong>Created by: ${sys_created_by}</strong></font></td>
+<td><span style="font-size: x-large;"><strong>Morning Checklist ${u_glide_date_1}&nbsp;</strong></span><br /><span style="font-size: medium;"><strong>Created by: ${sys_created_by}</strong></span></td>
 </tr>
 </tbody>
 </table>
 <table style="height: 900px; background-color: #e2efda; border-color: #000000;" border="1" width="1000">
 <tbody>
-<tr style="border-color: #000000;"><th>System</th><th align="left">Status</th><th>&nbsp;Comment</th></tr>
+<tr style="border-color: #000000;">
+<th>System</th>
+<th align="left">Status</th>
+<th>&nbsp;Comment</th>
+</tr>
 <tr>
 <td>&nbsp;VISUAL INSPECTION OF COMPUTER ROOM:&nbsp;</td>
 <td>&nbsp;${server_room}</td>
@@ -109,9 +114,14 @@
 <td>&nbsp;${bupsm_info}</td>
 </tr>
 <tr>
-<td>PIM:&nbsp;</td>
-<td>&nbsp;${pim}</td>
+<td>&nbsp;PIM:</td>
+<td>&nbsp;${pim}&nbsp;</td>
 <td>&nbsp;${pim_info}</td>
+</tr>
+<tr>
+<td>&nbsp;ERP Systems:&nbsp;</td>
+<td>&nbsp;${erp_systems}</td>
+<td>&nbsp;${erp_systems_info}</td>
 </tr>
 </tbody>
 </table>]]></message_html>
@@ -125,7 +135,7 @@
         <sys_created_on>2017-04-09 23:14:24</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>11a70a994f4272c07b679a701310c718</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Morning Checlist</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
@@ -133,7 +143,7 @@
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sysevent_email_template_11a70a994f4272c07b679a701310c718</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2017-07-26 05:00:47</sys_updated_on>
+        <sys_updated_on>2017-12-14 22:30:05</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

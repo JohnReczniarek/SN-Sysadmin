@@ -20,6 +20,7 @@
             </choice>
         </element>
         <element label="Phone Number" max_length="13" name="phone_number" type="string"/>
+        <element label="rejectresponse" max_length="1024" name="rejectresponse" type="string"/>
         <element label="Name" mandatory="true" max_length="40" name="requester" type="string"/>
         <element label="Start (24h time)" mandatory="true" max_length="40" name="start" type="glide_date_time"/>
         <element label="Brief summary of steps that are to be taken" mandatory="true" max_length="1024" name="steps" type="string"/>
