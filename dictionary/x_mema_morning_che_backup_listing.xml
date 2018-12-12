@@ -4,6 +4,7 @@
         <element choice="3" default="TDC" label="Location" max_length="16" name="location" type="choice">
             <choice>
                 <element label="North Rocks" value="NR"/>
+                <element label="Offsite" value="OFF"/>
                 <element label="Telstra Data Centre" value="TDC"/>
             </choice>
         </element>

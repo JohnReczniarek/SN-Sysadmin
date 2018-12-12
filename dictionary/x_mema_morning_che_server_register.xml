@@ -7,6 +7,7 @@
         <element label="Backup Specifics" max_length="200" name="backup_specifics" type="string"/>
         <element choice="3" default="mmem" label="Company" max_length="50" name="company" type="choice">
             <choice>
+                <element label="SHARED" value="shared"/>
                 <element label="MMEM" sequence="1" value="mmem"/>
                 <element label="RUSHMORE" sequence="2" value="rushmore"/>
                 <element label="DOTMAR" sequence="3" value="dotmar"/>
@@ -29,6 +30,7 @@
         <element choice="3" default="TDC" label="Location" max_length="200" name="location" type="choice">
             <choice>
                 <element label="NR" value="NR"/>
+                <element label="OFFSITE" value="OFF"/>
                 <element label="TDC" value="TDC"/>
             </choice>
         </element>
@@ -70,7 +72,7 @@
                 <element label="Virtual" value="VIRTUAL"/>
             </choice>
         </element>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element choice="1" label="Zone" max_length="200" name="zone" type="choice">
             <choice>
                 <element label="DCA" value="DCA"/>

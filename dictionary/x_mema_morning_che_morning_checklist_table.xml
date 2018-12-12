@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" type="collection">
-        <element choice="3" default="Error" hint="Check emails for alerts" label="Alerts Mailbox" max_length="40" name="alertmb" type="choice">
+        <element active="false" choice="3" default="Error" hint="Check emails for alerts" label="Alerts Mailbox" max_length="40" name="alertmb" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
                 <element label="Error" sequence="1" value="Error"/>
                 <element label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List alerts mailbox errors :" max_length="4000" name="alertmb_info" type="string"/>
+        <element active="false" label="List alerts mailbox errors :" max_length="4000" name="alertmb_info" type="string"/>
         <element choice="3" default="Error" hint="Email mm.sdesk@mmem.com.au and wait for response" label="Autotics" max_length="40" name="autotics" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>
@@ -49,6 +49,14 @@
             </choice>
         </element>
         <element label="List errors with overnight backups:" max_length="4000" name="bupson_info" type="string"/>
+        <element choice="3" default="Error" label="Cetnaj Backups" max_length="40" name="cetnaj_backups" type="choice">
+            <choice>
+                <element label="OK" sequence="0" value="OK"/>
+                <element label="Error" sequence="1" value="Error"/>
+                <element label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List Cetnaj Backup info" max_length="4000" name="cetnaj_backups_info" type="string"/>
         <element choice="3" default="Error" label="Cpm" max_length="40" name="cpm" type="choice">
             <choice>
                 <element label="OK" sequence="0" value="OK"/>

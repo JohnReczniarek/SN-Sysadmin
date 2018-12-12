@@ -25,6 +25,25 @@
             <element>location</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Offsite</label>
+            <language>en</language>
+            <name>x_mema_morning_che_backup_listing</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-25 03:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75bc5eaedb91eb4011e4e43405961993</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-25 03:44:16</sys_updated_on>
+            <value>OFF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Telstra Data Centre</label>
             <language>en</language>
             <name>x_mema_morning_che_backup_listing</name>
