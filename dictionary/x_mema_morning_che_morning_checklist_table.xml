@@ -168,7 +168,7 @@
             </choice>
         </element>
         <element label="Rsync info" max_length="4000" name="rsync_info" type="string"/>
-        <element choice="1" default="Error" hint="/u0/unibis/D3/apdaily/reject - MMEM&#13;&#10;/u0/unibis/D2/apdaily/reject - RUSH" label="Serko" max_length="40" name="serko" type="choice">
+        <element choice="3" default="Error" hint="/u0/unibis/D3/apdaily/reject - MMEM&#13;&#10;/u0/unibis/D2/apdaily/reject - RUSH" label="Serko" max_length="40" name="serko" type="choice">
             <choice>
                 <element label="Error" value="Error"/>
                 <element label="OK" value="Ok"/>

@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["390d931ddbc52780473de7148a9619be"]}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["323bf2f9db8ba78011e4e43405961903"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>Creates the incident for the Jumpbox Access request</description>
-        <expected_sequences>b10d931ddbc52780473de7148a9619c7,b50d931ddbc52780473de7148a9619c5,b50dd31ddbc52780473de7148a961944,790d931ddbc52780473de7148a9619bf,7d0dd31ddbc52780473de7148a961947,b10d931ddbc52780473de7148a9619c1,f10d931ddbc52780473de7148a9619c3,750d931ddbc52780473de7148a9619c4,390d931ddbc52780473de7148a9619be</expected_sequences>
+        <expected_sequences>f23bf2f9db8ba78011e4e4340596190a,7e3bf2f9db8ba78011e4e4340596190c,fe3bf2f9db8ba78011e4e4340596190a,323bf2f9db8ba78011e4e43405961905,7a3bf2f9db8ba78011e4e43405961906,b63bf2f9db8ba78011e4e43405961908,3a3bf2f9db8ba78011e4e4340596190e,ba3bf2f9db8ba78011e4e43405961903,323bf2f9db8ba78011e4e43405961903</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>b10d931ddbc52780473de7148a9619c7,b50d931ddbc52780473de7148a9619c5,b50dd31ddbc52780473de7148a961944,790d931ddbc52780473de7148a9619bf,7d0dd31ddbc52780473de7148a961947,b10d931ddbc52780473de7148a9619c1,310dd31ddbc52780473de7148a961946,f10d931ddbc52780473de7148a9619c3,750d931ddbc52780473de7148a9619c4,390d931ddbc52780473de7148a9619be</full_sequences>
+        <full_sequences>f23bf2f9db8ba78011e4e4340596190a,7e3bf2f9db8ba78011e4e4340596190c,fe3bf2f9db8ba78011e4e4340596190a,323bf2f9db8ba78011e4e43405961905,7a3bf2f9db8ba78011e4e43405961906,b63bf2f9db8ba78011e4e43405961908,f63bf2f9db8ba78011e4e43405961900,3a3bf2f9db8ba78011e4e4340596190e,ba3bf2f9db8ba78011e4e43405961903,323bf2f9db8ba78011e4e43405961903</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>JumpboxAccess</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">b10d931ddbc52780473de7148a9619c7</start>
+        <start display_value="Begin">f23bf2f9db8ba78011e4e4340596190a</start>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b90d931ddbc52780473de7148a9619bc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bb2f9db8ba78011e4e434059619ff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-01-09 01:27:50</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:52:16</sys_updated_on>
         <table>x_mema_morning_che_jumpbox</table>
         <timezone/>
         <validated>false</validated>
@@ -82,21 +82,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10d931ddbc52780473de7148a9619c7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f23bf2f9db8ba78011e4e4340596190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-01-09 01:27:34</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>57</x>
         <y>499</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b10d931ddbc52780473de7148a9619c7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f23bf2f9db8ba78011e4e4340596190a"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">b10d931ddbc52780473de7148a9619c7</activity>
+        <activity display_value="Begin">f23bf2f9db8ba78011e4e4340596190a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -110,11 +110,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>790d931ddbc52780473de7148a9619c7</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e4340596190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -132,58 +132,30 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>7d0dd31ddbc52780473de7148a961947</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7a3bf2f9db8ba78011e4e43405961906</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>558</x>
         <y>581</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7d0dd31ddbc52780473de7148a961947"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7a3bf2f9db8ba78011e4e43405961906"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7d0dd31ddbc52780473de7148a961947</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350dd31ddbc52780473de7148a961948</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7d0dd31ddbc52780473de7148a961947</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a961948</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>approved=Yes^EQ</value>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7d0dd31ddbc52780473de7148a961947</document_key>
+        <document_key>7a3bf2f9db8ba78011e4e43405961906</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50dd31ddbc52780473de7148a961948</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>763bf2f9db8ba78011e4e43405961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -201,43 +173,71 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7d0dd31ddbc52780473de7148a961947</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a961948</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>approved=Yes^EQ</value>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7d0dd31ddbc52780473de7148a961947</document_key>
+        <document_key>7a3bf2f9db8ba78011e4e43405961906</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350dd31ddbc52780473de7148a961948</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b23bf2f9db8ba78011e4e43405961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7d0dd31ddbc52780473de7148a961947</document_key>
+        <document_key>7a3bf2f9db8ba78011e4e43405961906</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fe3bf2f9db8ba78011e4e43405961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>approved=Yes^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7a3bf2f9db8ba78011e4e43405961906</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fe3bf2f9db8ba78011e4e43405961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>approved=Yes^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7a3bf2f9db8ba78011e4e43405961906</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b23bf2f9db8ba78011e4e43405961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7a3bf2f9db8ba78011e4e43405961906</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50dd31ddbc52780473de7148a961948</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>763bf2f9db8ba78011e4e43405961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -254,7 +254,7 @@
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check if Approval is approved or rejceted">7d0dd31ddbc52780473de7148a961947</activity>
+        <activity display_value="Check if Approval is approved or rejceted">7a3bf2f9db8ba78011e4e43405961906</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -268,14 +268,14 @@
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>fd0dd31ddbc52780473de7148a961948</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fe3bf2f9db8ba78011e4e43405961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check if Approval is approved or rejceted">7d0dd31ddbc52780473de7148a961947</activity>
+        <activity display_value="Check if Approval is approved or rejceted">7a3bf2f9db8ba78011e4e43405961906</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -289,11 +289,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>7d0dd31ddbc52780473de7148a961948</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e43405961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -311,31 +311,32 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f10d931ddbc52780473de7148a9619c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e4340596190e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:52:13</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>963</x>
         <y>536</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f10d931ddbc52780473de7148a9619c3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3a3bf2f9db8ba78011e4e4340596190e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f10d931ddbc52780473de7148a9619c3</document_key>
+        <document_key>3a3bf2f9db8ba78011e4e4340596190e</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50d931ddbc52780473de7148a9619c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e4340596190e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>var gr = new GlideRecord('x_mema_morning_che_jumpbox');&#13;
+        <sys_updated_on>2019-01-17 21:52:13</sys_updated_on>
+        <value>//comments!&#13;
+var gr = new GlideRecord('x_mema_morning_che_jumpbox');&#13;
 gr.orderByDesc('sys_created_on');&#13;
 gr.chooseWindow(0,1);&#13;
 gr.query();&#13;
@@ -362,16 +363,17 @@ if (gr.next()) {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f10d931ddbc52780473de7148a9619c3</document_key>
+        <document_key>3a3bf2f9db8ba78011e4e4340596190e</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50d931ddbc52780473de7148a9619c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e4340596190e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>var gr = new GlideRecord('x_mema_morning_che_jumpbox');&#13;
+        <sys_updated_on>2019-01-17 21:52:13</sys_updated_on>
+        <value>//comments!&#13;
+var gr = new GlideRecord('x_mema_morning_che_jumpbox');&#13;
 gr.orderByDesc('sys_created_on');&#13;
 gr.chooseWindow(0,1);&#13;
 gr.query();&#13;
@@ -397,7 +399,7 @@ if (gr.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create Incident">f10d931ddbc52780473de7148a9619c3</activity>
+        <activity display_value="Create Incident">3a3bf2f9db8ba78011e4e4340596190e</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -411,11 +413,11 @@ if (gr.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>7d0d931ddbc52780473de7148a9619c3</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e4340596190f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -433,19 +435,19 @@ if (gr.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390d931ddbc52780473de7148a9619be</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>1418</x>
         <y>637</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=390d931ddbc52780473de7148a9619be"/>
+    <sys_variable_value action="delete_multiple" query="document_key=323bf2f9db8ba78011e4e43405961903"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -462,173 +464,87 @@ if (gr.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b50dd31ddbc52780473de7148a961944</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e4340596190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-01-09 01:27:42</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>190</x>
         <y>484</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b50dd31ddbc52780473de7148a961944"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7e3bf2f9db8ba78011e4e4340596190c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350dd31ddbc52780473de7148a961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Name: ${requester}&#13;
-Company: ${company}&#13;
-Email Address: ${email_address}&#13;
-Start (24h time): ${start}&#13;
-Finish (24h time): ${finish}&#13;
-Server name \ Where the change is being applied: ${loc}&#13;
-Short description of the change being made: ${desc}&#13;
-Why is the change being made: ${why}&#13;
-Brief summary of steps that are to be taken: ${steps}&#13;
-Backup \ Restore plan: ${backup}&#13;
-Test plan: ${test}&#13;
-Link: ${URI}&#13;
-&#13;
-Please respond to this email (CC Sysadmin so everyone knows it's been responded to) with the following template&#13;
-&#13;
-approved: &#13;
-comments: </value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390dd31ddbc52780473de7148a961944</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>3585b05e4f91b2807b679a701310c7eb</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a961945</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>New Jumpbox Request</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0dd31ddbc52780473de7148a961944</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>763bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50dd31ddbc52780473de7148a961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90dd31ddbc52780473de7148a961944</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b23bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>0</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390dd31ddbc52780473de7148a961944</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>3585b05e4f91b2807b679a701310c7eb</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50dd31ddbc52780473de7148a961945</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>be3bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>New Jumpbox Request</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350dd31ddbc52780473de7148a961945</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fa3bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>Name: ${requester}&#13;
 Company: ${company}&#13;
 Email Address: ${email_address}&#13;
@@ -650,29 +566,115 @@ comments: </value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fe3bf2f9db8ba78011e4e4340596190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fe3bf2f9db8ba78011e4e4340596190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>be3bf2f9db8ba78011e4e4340596190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e4340596190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>New Jumpbox Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fa3bf2f9db8ba78011e4e4340596190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Name: ${requester}&#13;
+Company: ${company}&#13;
+Email Address: ${email_address}&#13;
+Start (24h time): ${start}&#13;
+Finish (24h time): ${finish}&#13;
+Server name \ Where the change is being applied: ${loc}&#13;
+Short description of the change being made: ${desc}&#13;
+Why is the change being made: ${why}&#13;
+Brief summary of steps that are to be taken: ${steps}&#13;
+Backup \ Restore plan: ${backup}&#13;
+Test plan: ${test}&#13;
+Link: ${URI}&#13;
+&#13;
+Please respond to this email (CC Sysadmin so everyone knows it's been responded to) with the following template&#13;
+&#13;
+approved: &#13;
+comments: </value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90dd31ddbc52780473de7148a961944</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b23bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>0</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50dd31ddbc52780473de7148a961944</document_key>
+        <document_key>7e3bf2f9db8ba78011e4e4340596190c</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0dd31ddbc52780473de7148a961944</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>763bf2f9db8ba78011e4e4340596190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
@@ -693,191 +695,191 @@ comments: </value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b50d931ddbc52780473de7148a9619c5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fe3bf2f9db8ba78011e4e4340596190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:20</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>152</x>
         <y>601</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b50d931ddbc52780473de7148a9619c5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fe3bf2f9db8ba78011e4e4340596190a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
-        <order>300</order>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
+        <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350d931ddbc52780473de7148a9619c6</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e4340596190c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Click on this ${URI+&amp;sysparm_view=Sysadmin} to see the request</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e4340596190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390d931ddbc52780473de7148a9619c5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e4340596190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:20</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>3585b05e4f91b2807b679a701310c7eb</value>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e4340596190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Click on this ${URI+&amp;sysparm_view=Sysadmin} to see the request</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710d931ddbc52780473de7148a9619c6</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e4340596190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>New Jumpbox Request</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0d931ddbc52780473de7148a9619c5</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e4340596190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50d931ddbc52780473de7148a9619c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>952de4634ff47a407b679a701310c70b</value>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90d931ddbc52780473de7148a9619c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390d931ddbc52780473de7148a9619c5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e4340596190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:20</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>3585b05e4f91b2807b679a701310c7eb</value>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50d931ddbc52780473de7148a9619c6</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e4340596190c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>952de4634ff47a407b679a701310c70b</value>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710d931ddbc52780473de7148a9619c6</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e4340596190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>New Jumpbox Request</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350d931ddbc52780473de7148a9619c6</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e4340596190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>Click on this ${URI+&amp;sysparm_view=Sysadmin} to see the request</value>
         <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90d931ddbc52780473de7148a9619c5</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e4340596190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>0</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b50d931ddbc52780473de7148a9619c5</document_key>
+        <document_key>fe3bf2f9db8ba78011e4e4340596190a</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0d931ddbc52780473de7148a9619c5</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e4340596190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Notify Sysadmin">b50d931ddbc52780473de7148a9619c5</activity>
+        <activity display_value="Notify Sysadmin">fe3bf2f9db8ba78011e4e4340596190a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -891,11 +893,11 @@ comments: </value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90d931ddbc52780473de7148a9619c6</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b63bf2f9db8ba78011e4e4340596190c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -913,73 +915,175 @@ comments: </value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10d931ddbc52780473de7148a9619c1</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b63bf2f9db8ba78011e4e43405961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>778</x>
         <y>538</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b10d931ddbc52780473de7148a9619c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b63bf2f9db8ba78011e4e43405961908"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e43405961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Hi ${requester},&#13;
+&#13;
+Your request has been approved.&#13;
+&#13;
+Start (24h time): 	 ${start}&#13;
+Finish (24h time): 	 ${finish}&#13;
+Server name \ Where the change is being applied: 	 ${loc}&#13;
+Short description of the change being made:	 ${desc}&#13;
+Brief summary of steps that are to be taken: 	 ${steps}&#13;
+Why is the change being made: 	 ${why}&#13;
+Test plan: 	 ${test}&#13;
+Backup \ Restore plan: 	 ${backup}&#13;
+&#13;
+Approver Comment(s):        ${rejectresponse}&#13;
+&#13;
+If there are any changes to the above details please inform MMEM IT immediately.&#13;
+&#13;
+Thanks,&#13;
+MMEM IT</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e43405961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e43405961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Jumpbox Access is Approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>3d0d931ddbc52780473de7148a9619c1</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>be3bf2f9db8ba78011e4e43405961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = current.email_address;</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750d931ddbc52780473de7148a9619c2</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e43405961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>952de4634ff47a407b679a701310c70b</value>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>790d931ddbc52780473de7148a9619c1</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fa3bf2f9db8ba78011e4e43405961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e43405961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e43405961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e43405961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Jumpbox Access is Approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10d931ddbc52780473de7148a9619c2</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e43405961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>Hi ${requester},&#13;
 &#13;
 Your request has been approved.&#13;
@@ -1003,137 +1107,35 @@ MMEM IT</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b50d931ddbc52780473de7148a9619c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>3585b05e4f91b2807b679a701310c7eb</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>fd0d931ddbc52780473de7148a9619c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Jumpbox Access is Approved</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b50d931ddbc52780473de7148a9619c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>3585b05e4f91b2807b679a701310c7eb</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750d931ddbc52780473de7148a9619c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>952de4634ff47a407b679a701310c70b</value>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>fd0d931ddbc52780473de7148a9619c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Jumpbox Access is Approved</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10d931ddbc52780473de7148a9619c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Hi ${requester},&#13;
-&#13;
-Your request has been approved.&#13;
-&#13;
-Start (24h time): 	 ${start}&#13;
-Finish (24h time): 	 ${finish}&#13;
-Server name \ Where the change is being applied: 	 ${loc}&#13;
-Short description of the change being made:	 ${desc}&#13;
-Brief summary of steps that are to be taken: 	 ${steps}&#13;
-Why is the change being made: 	 ${why}&#13;
-Test plan: 	 ${test}&#13;
-Backup \ Restore plan: 	 ${backup}&#13;
-&#13;
-Approver Comment(s):        ${rejectresponse}&#13;
-&#13;
-If there are any changes to the above details please inform MMEM IT immediately.&#13;
-&#13;
-Thanks,&#13;
-MMEM IT</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>790d931ddbc52780473de7148a9619c1</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>fa3bf2f9db8ba78011e4e43405961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b10d931ddbc52780473de7148a9619c1</document_key>
+        <document_key>b63bf2f9db8ba78011e4e43405961908</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>3d0d931ddbc52780473de7148a9619c1</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>be3bf2f9db8ba78011e4e43405961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = current.email_address;</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Send Approved Email">b10d931ddbc52780473de7148a9619c1</activity>
+        <activity display_value="Send Approved Email">b63bf2f9db8ba78011e4e43405961908</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1147,11 +1149,11 @@ answer = current.email_address;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90d931ddbc52780473de7148a9619c2</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e43405961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -1169,87 +1171,171 @@ answer = current.email_address;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>310dd31ddbc52780473de7148a961946</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e43405961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>778</x>
         <y>703</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=310dd31ddbc52780473de7148a961946"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f63bf2f9db8ba78011e4e43405961900"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e43405961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e43405961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e43405961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Hi ${requester},&#13;
+&#13;
+Unfortunately your request to access the MM Jumpbox has been rejected.&#13;
+&#13;
+The following comments were given by ${approver} about the rejection:&#13;
+${Rejectresponse}&#13;
+&#13;
+Please resolve any issues with your request and then re-submit.&#13;
+&#13;
+Do not respond to this email as this email address is not monitored.&#13;
+&#13;
+Thanks,&#13;
+MMEM IT Team.&#13;
+&#13;
+ </value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e43405961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Jumpbox Access Rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390dd31ddbc52780473de7148a961946</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e43405961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = current.email_address;</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a961947</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>952de4634ff47a407b679a701310c70b</value>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750dd31ddbc52780473de7148a961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10dd31ddbc52780473de7148a961946</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e43405961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>3585b05e4f91b2807b679a701310c7eb</value>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e43405961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <value>Jumpbox Access Rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0dd31ddbc52780473de7148a961946</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7e3bf2f9db8ba78011e4e43405961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>Hi ${requester},&#13;
 &#13;
 Unfortunately your request to access the MM Jumpbox has been rejected.&#13;
@@ -1269,119 +1355,35 @@ MMEM IT Team.&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90dd31ddbc52780473de7148a961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Jumpbox Access Rejected</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10dd31ddbc52780473de7148a961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>3585b05e4f91b2807b679a701310c7eb</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a961947</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>952de4634ff47a407b679a701310c70b</value>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90dd31ddbc52780473de7148a961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Jumpbox Access Rejected</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0dd31ddbc52780473de7148a961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <value>Hi ${requester},&#13;
-&#13;
-Unfortunately your request to access the MM Jumpbox has been rejected.&#13;
-&#13;
-The following comments were given by ${approver} about the rejection:&#13;
-${Rejectresponse}&#13;
-&#13;
-Please resolve any issues with your request and then re-submit.&#13;
-&#13;
-Do not respond to this email as this email address is not monitored.&#13;
-&#13;
-Thanks,&#13;
-MMEM IT Team.&#13;
-&#13;
- </value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750dd31ddbc52780473de7148a961946</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e43405961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>310dd31ddbc52780473de7148a961946</document_key>
+        <document_key>f63bf2f9db8ba78011e4e43405961900</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>390dd31ddbc52780473de7148a961946</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e43405961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = current.email_address;</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Send Rejected Email">310dd31ddbc52780473de7148a961946</activity>
+        <activity display_value="Send Rejected Email">f63bf2f9db8ba78011e4e43405961900</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1395,11 +1397,11 @@ answer = current.email_address;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750dd31ddbc52780473de7148a961947</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e43405961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1417,49 +1419,49 @@ answer = current.email_address;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750d931ddbc52780473de7148a9619c4</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>ba3bf2f9db8ba78011e4e43405961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>1235</x>
         <y>631</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=750d931ddbc52780473de7148a9619c4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ba3bf2f9db8ba78011e4e43405961903"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>750d931ddbc52780473de7148a9619c4</document_key>
+        <document_key>ba3bf2f9db8ba78011e4e43405961903</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>790d931ddbc52780473de7148a9619c4</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961904</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>email_sent=true^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>750d931ddbc52780473de7148a9619c4</document_key>
+        <document_key>ba3bf2f9db8ba78011e4e43405961903</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>790d931ddbc52780473de7148a9619c4</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961904</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>email_sent=true^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set Email Sent to true">750d931ddbc52780473de7148a9619c4</activity>
+        <activity display_value="Set Email Sent to true">ba3bf2f9db8ba78011e4e43405961903</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1473,11 +1475,11 @@ answer = current.email_address;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>fd0d931ddbc52780473de7148a9619c4</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e43405961904</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
@@ -1495,44 +1497,44 @@ answer = current.email_address;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>790d931ddbc52780473de7148a9619bf</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
         <x>346</x>
         <y>599</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=790d931ddbc52780473de7148a9619bf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=323bf2f9db8ba78011e4e43405961905"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>790d931ddbc52780473de7148a9619bf</document_key>
+        <document_key>323bf2f9db8ba78011e4e43405961905</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750d931ddbc52780473de7148a9619c0</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7a3bf2f9db8ba78011e4e43405961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>approvedINNo,Yes^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>790d931ddbc52780473de7148a9619bf</document_key>
+        <document_key>323bf2f9db8ba78011e4e43405961905</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>7d0d931ddbc52780473de7148a9619bf</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b63bf2f9db8ba78011e4e43405961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
@@ -1540,36 +1542,36 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>790d931ddbc52780473de7148a9619bf</document_key>
+        <document_key>323bf2f9db8ba78011e4e43405961905</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>750d931ddbc52780473de7148a9619c0</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>7a3bf2f9db8ba78011e4e43405961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>approvedINNo,Yes^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>790d931ddbc52780473de7148a9619bf</document_key>
+        <document_key>323bf2f9db8ba78011e4e43405961905</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>7d0d931ddbc52780473de7148a9619bf</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b63bf2f9db8ba78011e4e43405961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
         <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for Approval">790d931ddbc52780473de7148a9619bf</activity>
+        <activity display_value="Wait for Approval">323bf2f9db8ba78011e4e43405961905</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1583,135 +1585,135 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f90d931ddbc52780473de7148a9619c0</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>723bf2f9db8ba78011e4e43405961906</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">790d931ddbc52780473de7148a9619c7</condition>
-        <from display_value="Begin">b10d931ddbc52780473de7148a9619c7</from>
+        <condition display_value="Always">3a3bf2f9db8ba78011e4e43405961902</condition>
+        <from display_value="Send Rejected Email">f63bf2f9db8ba78011e4e43405961900</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>350dd31ddbc52780473de7148a96194a</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Notify Sysadmin">b50d931ddbc52780473de7148a9619c5</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Set Email Sent to true">ba3bf2f9db8ba78011e4e43405961903</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">7d0dd31ddbc52780473de7148a961948</condition>
-        <from display_value="Check if Approval is approved or rejceted">7d0dd31ddbc52780473de7148a961947</from>
+        <condition display_value="Always">723bf2f9db8ba78011e4e43405961906</condition>
+        <from display_value="Wait for Approval">323bf2f9db8ba78011e4e43405961905</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>3d0dd31ddbc52780473de7148a96194a</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>323bf2f9db8ba78011e4e43405961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Send Approved Email">b10d931ddbc52780473de7148a9619c1</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Check if Approval is approved or rejceted">7a3bf2f9db8ba78011e4e43405961906</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">790d931ddbc52780473de7148a9619c7</condition>
-        <from display_value="Begin">b10d931ddbc52780473de7148a9619c7</from>
+        <condition display_value="Always">323bf2f9db8ba78011e4e4340596190f</condition>
+        <from display_value="Create Incident">3a3bf2f9db8ba78011e4e4340596190e</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2019-01-09 01:27:19</sys_created_on>
-        <sys_id>5636950fdb32238011e4e4340596196c</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>363bf2f9db8ba78011e4e43405961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-01-09 01:27:19</sys_updated_on>
-        <to display_value="Notify John">b50dd31ddbc52780473de7148a961944</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Set Email Sent to true">ba3bf2f9db8ba78011e4e43405961903</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f90d931ddbc52780473de7148a9619c6</condition>
-        <from display_value="Notify Sysadmin">b50d931ddbc52780473de7148a9619c5</from>
+        <condition display_value="Always">3a3bf2f9db8ba78011e4e4340596190a</condition>
+        <from display_value="Begin">f23bf2f9db8ba78011e4e4340596190a</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>710dd31ddbc52780473de7148a96194a</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3a3bf2f9db8ba78011e4e43405961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Wait for Approval">790d931ddbc52780473de7148a9619bf</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Notify John">7e3bf2f9db8ba78011e4e4340596190c</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">fd0d931ddbc52780473de7148a9619c4</condition>
-        <from display_value="Set Email Sent to true">750d931ddbc52780473de7148a9619c4</from>
+        <condition display_value="Always">b63bf2f9db8ba78011e4e4340596190c</condition>
+        <from display_value="Notify Sysadmin">fe3bf2f9db8ba78011e4e4340596190a</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b10dd31ddbc52780473de7148a96194b</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3e3bf2f9db8ba78011e4e43405961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="End">390d931ddbc52780473de7148a9619be</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Wait for Approval">323bf2f9db8ba78011e4e43405961905</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">fd0dd31ddbc52780473de7148a961948</condition>
-        <from display_value="Check if Approval is approved or rejceted">7d0dd31ddbc52780473de7148a961947</from>
+        <condition display_value="Always">7e3bf2f9db8ba78011e4e43405961909</condition>
+        <from display_value="Send Approved Email">b63bf2f9db8ba78011e4e43405961908</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b90dd31ddbc52780473de7148a96194a</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>3e3bf2f9db8ba78011e4e43405961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Send Rejected Email">310dd31ddbc52780473de7148a961946</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Create Incident">3a3bf2f9db8ba78011e4e4340596190e</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">750dd31ddbc52780473de7148a961947</condition>
-        <from display_value="Send Rejected Email">310dd31ddbc52780473de7148a961946</from>
+        <condition display_value="Yes">7e3bf2f9db8ba78011e4e43405961907</condition>
+        <from display_value="Check if Approval is approved or rejceted">7a3bf2f9db8ba78011e4e43405961906</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>b90dd31ddbc52780473de7148a96194b</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>763bf2f9db8ba78011e4e43405961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Set Email Sent to true">750d931ddbc52780473de7148a9619c4</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Send Approved Email">b63bf2f9db8ba78011e4e43405961908</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f90d931ddbc52780473de7148a9619c2</condition>
-        <from display_value="Send Approved Email">b10d931ddbc52780473de7148a9619c1</from>
+        <condition display_value="Always">3a3bf2f9db8ba78011e4e43405961904</condition>
+        <from display_value="Set Email Sent to true">ba3bf2f9db8ba78011e4e43405961903</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50dd31ddbc52780473de7148a96194a</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b23bf2f9db8ba78011e4e43405961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Create Incident">f10d931ddbc52780473de7148a9619c3</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="End">323bf2f9db8ba78011e4e43405961903</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7d0d931ddbc52780473de7148a9619c3</condition>
-        <from display_value="Create Incident">f10d931ddbc52780473de7148a9619c3</from>
+        <condition display_value="Always">3a3bf2f9db8ba78011e4e4340596190a</condition>
+        <from display_value="Begin">f23bf2f9db8ba78011e4e4340596190a</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>f50dd31ddbc52780473de7148a96194b</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>b63bf2f9db8ba78011e4e43405961910</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Set Email Sent to true">750d931ddbc52780473de7148a9619c4</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Notify Sysadmin">fe3bf2f9db8ba78011e4e4340596190a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f90d931ddbc52780473de7148a9619c0</condition>
-        <from display_value="Wait for Approval">790d931ddbc52780473de7148a9619bf</from>
+        <condition display_value="No">fe3bf2f9db8ba78011e4e43405961907</condition>
+        <from display_value="Check if Approval is approved or rejceted">7a3bf2f9db8ba78011e4e43405961906</from>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>fd0dd31ddbc52780473de7148a96194a</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f63bf2f9db8ba78011e4e43405961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <to display_value="Check if Approval is approved or rejceted">7d0dd31ddbc52780473de7148a961947</to>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <to display_value="Send Rejected Email">f63bf2f9db8ba78011e4e43405961900</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-10-09 00:57:01</sys_created_on>
-        <sys_id>bd0d931ddbc52780473de7148a9619bc</sys_id>
+        <sys_created_on>2019-01-17 21:51:55</sys_created_on>
+        <sys_id>f23bb2f9db8ba78011e4e434059619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-09 00:57:01</sys_updated_on>
-        <workflow_version display_value="JumpboxAccess">b90d931ddbc52780473de7148a9619bc</workflow_version>
+        <sys_updated_on>2019-01-17 21:51:55</sys_updated_on>
+        <workflow_version display_value="JumpboxAccess">723bb2f9db8ba78011e4e434059619ff</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=a229c5514ffa76007b679a701310c753^sys_id!=b90d931ddbc52780473de7148a9619bc">
+    <wf_workflow_version action="update_multiple" query="workflow=a229c5514ffa76007b679a701310c753^sys_id!=723bb2f9db8ba78011e4e434059619ff">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
