@@ -25,6 +25,25 @@
             <element>company</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Backup</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59b706b4db33a30011e4e434059619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:58</sys_updated_on>
+            <value>Backup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>company</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>MMEM</label>
             <language>en</language>
             <name>x_mema_morning_che_server_register</name>

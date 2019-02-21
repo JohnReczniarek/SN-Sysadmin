@@ -8,7 +8,7 @@
         <field>ip_address</field>
         <global>true</global>
         <messages/>
-        <name>SR-Update Zone</name>
+        <name>SR-IP Address</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
@@ -18,14 +18,17 @@
 	if(address.indexOf("10.128.1.") > -1){
 		   g_form.setValue('zone','DCA');
 	   }
+	else if(address.indexOf("10.128.4.") > -1){
+		   g_form.setValue('zone','DCB');
+	   }
+	else if(address.indexOf("10.128.5.") > -1){
+		   g_form.setValue('zone','DCC');
+	   }
 	else if(address.indexOf("10.128.6.") > -1){
 		   g_form.setValue('zone','DCD');
 	   }
 	else if(address.indexOf("10.128.64.") > -1){
 		   g_form.setValue('zone','DMZ');
-	   }
-	else if(address.indexOf("10.128.5.") > -1){
-		   g_form.setValue('zone','DCC');
 	   }
 	else {
 		g_form.setValue('zone','PROD');
@@ -40,8 +43,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ca59cdddbfc270011e4e4340596192f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>SR-Update Zone</sys_name>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>SR-IP Address</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
@@ -49,7 +52,7 @@
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sys_script_client_1ca59cdddbfc270011e4e4340596192f</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-09-26 01:44:09</sys_updated_on>
+        <sys_updated_on>2019-02-21 03:08:32</sys_updated_on>
         <table>x_mema_morning_che_server_register</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

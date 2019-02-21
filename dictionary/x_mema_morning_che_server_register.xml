@@ -8,6 +8,7 @@
         <element choice="3" default="mmem" label="Company" max_length="50" name="company" type="choice">
             <choice>
                 <element label="SHARED" value="shared"/>
+                <element label="Backup" sequence="0" value="Backup"/>
                 <element label="MMEM" sequence="1" value="mmem"/>
                 <element label="RUSHMORE" sequence="2" value="rushmore"/>
                 <element label="DOTMAR" sequence="3" value="dotmar"/>
@@ -32,6 +33,7 @@
                 <element label="NR" value="NR"/>
                 <element label="OFFSITE" value="OFF"/>
                 <element label="TDC" value="TDC"/>
+                <element label="AVS" sequence="0" value="AVS"/>
             </choice>
         </element>
         <element label="Monitoring" max_length="2000" name="monitoring" type="string"/>
@@ -58,6 +60,21 @@
                 <element label="Windows Server 2012" value="2012"/>
                 <element label="Windows Server 2012 R2" value="2012r2"/>
                 <element label="Windows Server 2016" value="2016"/>
+                <element label="CentOS 4/5/6/7 (64-bit)" sequence="0" value="CentOS 4/5/6/7 (64-bit)"/>
+                <element label="Linux" sequence="0" value="Linux"/>
+                <element label="Linux CentOS/RHEL" sequence="0" value="Linux CentOS/RHEL"/>
+                <element label="Microsoft Windows 10 (64-bit)" sequence="0" value="Microsoft Windows 10 (64-bit)"/>
+                <element label="Microsoft Windows 7 (64-bit)" sequence="0" value="Microsoft Windows 7 (64-bit)"/>
+                <element label="Microsoft Windows Server 2000 (32-bit)" sequence="0" value="Microsoft Windows Server 2000 (32-bit)"/>
+                <element label="Microsoft Windows Server 2003 Standard (32-bit)" sequence="0" value="Microsoft Windows Server 2003 Standard (32-bit)"/>
+                <element label="Microsoft Windows Server 2008 R2" sequence="0" value="Microsoft Windows Server 2008 R2"/>
+                <element label="Microsoft Windows Server 2012" sequence="0" value="Microsoft Windows Server 2012"/>
+                <element label="Microsoft Windows Server 2016 (64-bit)" sequence="0" value="Microsoft Windows Server 2016 (64-bit)"/>
+                <element label="Microsort Windows Server 2012 (64-bit)" sequence="0" value="Microsort Windows Server 2012 (64-bit)"/>
+                <element label="Oracle Solaris 10 (64-bit)" sequence="0" value="Oracle Solaris 10 (64-bit)"/>
+                <element label="Red Hat Enterprise Linux 6 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 6 (64-bit)"/>
+                <element label="Red Hat Enterprise Linux 7 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 7 (64-bit)"/>
+                <element label="Ubuntu Linux (64-bit)" sequence="0" value="Ubuntu Linux (64-bit)"/>
             </choice>
         </element>
         <element choice="3" default="ON" label="Power State" max_length="200" name="power_state" type="choice">
@@ -75,11 +92,17 @@
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element choice="1" label="Zone" max_length="200" name="zone" type="choice">
             <choice>
-                <element label="DCA" value="DCA"/>
-                <element label="DCB" value="DCB"/>
-                <element label="DEV" value="DEV"/>
-                <element label="DMZ" value="DMZ"/>
-                <element label="PROD" value="PROD"/>
+                <element label="DCA" sequence="0" value="DCA"/>
+                <element label="DCB" sequence="1" value="DCB"/>
+                <element label="DCC" sequence="2" value="DCC"/>
+                <element label="DCD" sequence="3" value="DCD"/>
+                <element label="DMZ" sequence="4" value="DMZ"/>
+                <element label="PROD" sequence="5" value="PROD"/>
+                <element label="DEV" sequence="6" value="DEV"/>
+                <element label="GAMART" sequence="8" value="GAMART"/>
+                <element label="INFRA" sequence="9" value="INFRA"/>
+                <element label="NR - DMZ" sequence="10" value="NR - DMZ"/>
+                <element label="PHONE" sequence="11" value="PHONE"/>
             </choice>
         </element>
         <index name="index">
