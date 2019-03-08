@@ -4,13 +4,13 @@
             <element>ipmon</element>
             <position>0</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>c5ea00fddb8cf34011e4e434059619f3</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>1cd228f1db00374011e4e43405961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,69 +18,69 @@
             <element>ipmon_info</element>
             <position>1</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>49ea00fddb8cf34011e4e434059619f3</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>90d228f1db00374011e4e43405961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>routers</element>
+            <position>2</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>14d228f1db00374011e4e43405961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>routers_info</element>
+            <position>3</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>94d228f1db00374011e4e43405961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>edi</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>c9ea00fddb8cf34011e4e434059619f3</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>18d228f1db00374011e4e43405961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>edi_info</element>
-            <position>3</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>4dea00fddb8cf34011e4e434059619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>disk</element>
-            <position>4</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>cdea00fddb8cf34011e4e434059619f3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>disk_info</element>
             <position>5</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>41ea00fddb8cf34011e4e434059619f4</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>98d228f1db00374011e4e43405961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,69 +88,69 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>c1ea00fddb8cf34011e4e434059619f4</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>1cd228f1db00374011e4e43405961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>routers</element>
+            <element>flags</element>
             <position>7</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>45ea00fddb8cf34011e4e434059619f4</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>9cd228f1db00374011e4e43405961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>routers_info</element>
-            <position>8</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>c5ea00fddb8cf34011e4e434059619f4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>flags</element>
-            <position>9</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>49ea00fddb8cf34011e4e434059619f4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>flags_info</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>c9ea00fddb8cf34011e4e434059619f4</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>10d228f1db00374011e4e43405961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk</element>
+            <position>9</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>90d228f1db00374011e4e43405961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk_info</element>
+            <position>10</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>14d228f1db00374011e4e43405961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>extents</element>
             <position>11</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>4dea00fddb8cf34011e4e434059619f4</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>94d228f1db00374011e4e43405961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>extents_info</element>
             <position>12</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-08 02:04:15</sys_created_on>
-            <sys_id>cdea00fddb8cf34011e4e434059619f4</sys_id>
+            <sys_created_on>2019-03-08 03:48:47</sys_created_on>
+            <sys_id>18d228f1db00374011e4e43405961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Checks" display_value="Checks" name="x_mema_morning_che_weekend_checklist" sys_domain="global" view="Default view">c5ea00fddb8cf34011e4e434059619d9</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-08 02:04:15</sys_updated_on>
+            <sys_updated_on>2019-03-08 03:48:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

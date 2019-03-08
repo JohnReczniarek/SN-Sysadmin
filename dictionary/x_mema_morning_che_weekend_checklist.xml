@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Weekend Checklist" max_length="40" name="x_mema_morning_che_weekend_checklist" type="collection">
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
-        <element choice="3" default="Error" label="Branch Disk Space" max_length="40" name="disk" type="choice">
+        <element choice="3" default="Error" label="Update Server Disk Space" max_length="40" name="disk" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
             </choice>
         </element>
-        <element label="List Branch Disk Issues" max_length="2000" name="disk_info" type="string"/>
-        <element choice="3" default="Error" label="Dnz unibis" max_length="40" name="dnz_unibis" type="choice">
+        <element label="List Update Server Disk Issues" max_length="2000" name="disk_info" type="string"/>
+        <element choice="3" default="Error" label="Dotmar NZ Unibis" max_length="40" name="dnz_unibis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
@@ -22,20 +22,20 @@
             </choice>
         </element>
         <element label="List Dotmar Unibis Issues" max_length="2000" name="dot_unibis_info" type="string"/>
-        <element choice="3" default="Error" label="EDI \ DocOrigin" max_length="40" name="edi" type="choice">
+        <element choice="3" default="Error" label="EDI" max_length="40" name="edi" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
             </choice>
         </element>
         <element label="List EDI Issues" max_length="2000" name="edi_info" type="string"/>
-        <element choice="3" default="Error" label="Branch DB Extents" max_length="40" name="extents" type="choice">
+        <element choice="3" default="Error" label="Update Server DB Extents" max_length="40" name="extents" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
             </choice>
         </element>
-        <element label="List Branch Extents" max_length="2000" name="extents_info" type="string"/>
+        <element label="List Update Server Extents" max_length="2000" name="extents_info" type="string"/>
         <element choice="3" default="Error" label="Branch Night Flags" max_length="40" name="flags" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
