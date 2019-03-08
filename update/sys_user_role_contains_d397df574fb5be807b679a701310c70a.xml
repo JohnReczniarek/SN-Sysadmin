@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="x_mema_sysadmin.user" name="x_mema_sysadmin.user">673c91f54fb13e807b679a701310c77c</contains>
         <role display_value="x_mema_sysadmin.admin" name="x_mema_sysadmin.admin">4d575f574fb5be807b679a701310c7f9</role>

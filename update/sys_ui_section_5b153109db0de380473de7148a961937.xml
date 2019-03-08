@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
-    <sys_ui_section caption="More Info" section_id="5b153109db0de380473de7148a961937" sys_domain="global" table="x_mema_morning_che_jumpbox" version="3" view="external">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="More Info" section_id="5b153109db0de380473de7148a961937" sys_domain="global" table="x_mema_morning_che_jumpbox" version="3" view="External">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>desc</element>
             <position>0</position>
@@ -95,7 +94,7 @@
             <sys_updated_on>2018-10-07 22:44:32</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="external" name="external">53153109db0de380473de7148a961933</view>
+            <view display_value="External" name="External">53153109db0de380473de7148a961933</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

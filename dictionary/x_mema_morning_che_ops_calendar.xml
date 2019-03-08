@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="calendar_elements=calendar_elements=start_date;short_desc" max_length="40" name="x_mema_morning_che_ops_calendar" type="collection">
         <element default="OpsCal" label="Calendar" max_length="10" name="calendar" type="string"/>
         <element label="Notify Who" max_length="32" name="notify_who" reference="sys_user" type="reference"/>

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="JumpboxAccess" max_length="40" name="x_mema_morning_che_jumpbox" type="collection">
         <element choice="1" label="Approved" max_length="40" name="approved" type="choice">
             <choice>
-                <element label="No" value="No"/>
-                <element label="Yes" value="Yes"/>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
             </choice>
         </element>
         <element label="Backup \ Restore plan" mandatory="true" max_length="1024" name="backup" type="string"/>
@@ -16,8 +15,8 @@
         <element label="Server name \ Where the change is being applied" mandatory="true" max_length="64" name="loc" type="string"/>
         <element choice="3" default="yes" label="Outage Required" max_length="255" name="outage" type="choice">
             <choice>
-                <element label="Yes" sequence="0" value="yes"/>
-                <element label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
         <element label="Phone Number" max_length="13" name="phone_number" type="string"/>

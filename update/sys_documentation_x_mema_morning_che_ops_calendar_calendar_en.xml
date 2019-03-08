@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="calendar" label="Calendar" language="en" table="x_mema_morning_che_ops_calendar">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>calendar</element>

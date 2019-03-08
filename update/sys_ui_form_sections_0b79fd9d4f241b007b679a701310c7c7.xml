@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="0b79fd9d4f241b007b679a701310c7c7" sys_domain="global" table="x_mema_morning_che_morning_checklist_table" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>

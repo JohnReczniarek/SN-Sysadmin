@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="bupson_info" label="List errors with overnight backups:" language="en" table="x_mema_morning_che_morning_checklist_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>bupson_info</element>

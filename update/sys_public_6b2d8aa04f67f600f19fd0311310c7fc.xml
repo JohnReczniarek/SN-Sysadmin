@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_public">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_public">
     <sys_public action="INSERT_OR_UPDATE">
         <active>true</active>
         <page>x_mema_morning_che_Jumpbox_Confirmation</page>

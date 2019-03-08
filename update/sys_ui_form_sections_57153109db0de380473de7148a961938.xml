@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="57153109db0de380473de7148a961938" sys_domain="global" table="x_mema_morning_che_jumpbox" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
@@ -50,7 +49,7 @@
             <sys_updated_by>john.reczniarek</sys_updated_by>
             <sys_updated_on>2018-10-07 22:44:32</sys_updated_on>
             <sys_user/>
-            <view display_value="external" name="external">53153109db0de380473de7148a961933</view>
+            <view display_value="External" name="External">53153109db0de380473de7148a961933</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

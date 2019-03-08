@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["1fe89af2db436b8011e4e43405961910"]}</activity_stages>
@@ -34,12 +33,12 @@
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2019-01-20 21:55:57</sys_created_on>
         <sys_id>9fe89af2db436b8011e4e4340596190d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-01-20 21:56:25</sys_updated_on>
+        <sys_updated_on>2019-03-04 02:29:20</sys_updated_on>
         <table>x_mema_morning_che_morning_checklist_table</table>
         <timezone>Australia/NSW</timezone>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Morning Checklist Workflow">2438293d4fb13e807b679a701310c735</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

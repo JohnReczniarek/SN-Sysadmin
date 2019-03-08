@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Weekend Checklist" max_length="40" name="x_mema_morning_che_weekend_checklist" type="collection">
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element choice="3" default="Error" label="Disk" max_length="40" name="disk" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Disk info" max_length="2000" name="disk_info" type="string"/>
+        <element choice="3" default="Error" label="Dnz unibis" max_length="40" name="dnz_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Dnz unibis info" max_length="2000" name="dnz_unibis_info" type="string"/>
+        <element choice="3" default="Error" label="Dot unibis" max_length="40" name="dot_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Dot unibis info" max_length="2000" name="dot_unibis_info" type="string"/>
+        <element choice="3" default="Error" label="Edi" max_length="40" name="edi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Edi info" max_length="2000" name="edi_info" type="string"/>
+        <element choice="3" default="Error" label="Extents" max_length="40" name="extents" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Extents info" max_length="2000" name="extents_info" type="string"/>
+        <element choice="3" default="Error" label="Flags" max_length="40" name="flags" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Flags info" max_length="2000" name="flags_info" type="string"/>
+        <element choice="3" default="Error" label="Ipmon" max_length="40" name="ipmon" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Ipmon info" max_length="2000" name="ipmon_info" type="string"/>
+        <element choice="3" default="Error" label="Nat unibis" max_length="40" name="nat_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Nat unibis info" max_length="2000" name="nat_unibis_info" type="string"/>
+        <element choice="3" default="Error" label="Rm unibis" max_length="40" name="rm_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Rm unibis info" max_length="2000" name="rm_unibis_info" type="string"/>
+        <element choice="3" default="Error" label="Routers" max_length="40" name="routers" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Routers info" max_length="2000" name="routers_info" type="string"/>
+    </element>
+</database>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="critical_system" label="Critical System" language="en" table="x_mema_morning_che_server_register">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>critical_system</element>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Server Register" max_length="40" name="x_mema_morning_che_server_register" type="collection">
         <element attributes="ref_auto_completer=AJAXTableCompleter" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="2" label="Backup and Replication Group" max_length="200" name="backup_and_replication_group" reference="x_mema_morning_che_backup_listing" reference_qual="javascript:&quot;location=&quot;+current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
@@ -7,33 +6,33 @@
         <element label="Backup Specifics" max_length="200" name="backup_specifics" type="string"/>
         <element choice="3" default="mmem" label="Company" max_length="50" name="company" type="choice">
             <choice>
-                <element label="SHARED" value="shared"/>
-                <element label="Backup" sequence="0" value="Backup"/>
-                <element label="MMEM" sequence="1" value="mmem"/>
-                <element label="RUSHMORE" sequence="2" value="rushmore"/>
-                <element label="DOTMAR" sequence="3" value="dotmar"/>
-                <element label="GAMART" sequence="4" value="gamart"/>
-                <element label="CETNAJ" sequence="5" value="cetnaj"/>
-                <element label="AVS" sequence="6" value="avs"/>
+                <element inactive_on_update="false" label="SHARED" value="shared"/>
+                <element inactive_on_update="false" label="Backup" sequence="0" value="Backup"/>
+                <element inactive_on_update="false" label="MMEM" sequence="1" value="mmem"/>
+                <element inactive_on_update="false" label="RUSHMORE" sequence="2" value="rushmore"/>
+                <element inactive_on_update="false" label="DOTMAR" sequence="3" value="dotmar"/>
+                <element inactive_on_update="false" label="GAMART" sequence="4" value="gamart"/>
+                <element inactive_on_update="false" label="CETNAJ" sequence="5" value="cetnaj"/>
+                <element inactive_on_update="false" label="AVS" sequence="6" value="avs"/>
             </choice>
         </element>
         <element label="Critical System" max_length="40" name="critical_system" type="boolean"/>
         <element label="Description" max_length="2000" name="description" type="string"/>
         <element choice="3" default="mml.internal" label="Domain" max_length="50" name="domain" type="choice">
             <choice>
-                <element label="avs.local" value="avs.local"/>
-                <element label="cetnajpl.local" value="cetnajpl.local"/>
-                <element label="gamart.local" value="gamart.local"/>
-                <element label="mml.internal" value="mml.internal"/>
+                <element inactive_on_update="false" label="avs.local" value="avs.local"/>
+                <element inactive_on_update="false" label="cetnajpl.local" value="cetnajpl.local"/>
+                <element inactive_on_update="false" label="gamart.local" value="gamart.local"/>
+                <element inactive_on_update="false" label="mml.internal" value="mml.internal"/>
             </choice>
         </element>
         <element label="IP Address" max_length="16" name="ip_address" type="ip_addr" unique="true"/>
         <element choice="3" default="TDC" label="Location" max_length="200" name="location" type="choice">
             <choice>
-                <element label="NR" value="NR"/>
-                <element label="OFFSITE" value="OFF"/>
-                <element label="TDC" value="TDC"/>
-                <element label="AVS" sequence="0" value="AVS"/>
+                <element inactive_on_update="false" label="NR" value="NR"/>
+                <element inactive_on_update="false" label="OFFSITE" value="OFF"/>
+                <element inactive_on_update="false" label="TDC" value="TDC"/>
+                <element inactive_on_update="false" label="AVS" sequence="0" value="AVS"/>
             </choice>
         </element>
         <element label="Monitoring" max_length="2000" name="monitoring" type="string"/>
@@ -41,68 +40,69 @@
         <element label="Notes" max_length="2000" name="notes" type="string"/>
         <element choice="3" default="2012r2" label="Operating System" max_length="200" name="operating_system" type="choice">
             <choice>
-                <element label="CentOS" value="centos"/>
-                <element label="Linux SCO" value="sco"/>
-                <element label="Red Hat Enterprise Linux" value="rhel"/>
-                <element label="Ubuntu" value="ubuntu"/>
-                <element label="Windows 10 (32-bit)" value="win10-32"/>
-                <element label="Windows 10 (64-bit)" value="win10-64"/>
-                <element label="Windows 7 (32-bit)" value="win7-32"/>
-                <element label="Windows 7 (64-bit)" value="win7-64"/>
-                <element label="Windows Server 2000 (32-bit)" value="2000-32"/>
-                <element label="Windows Server 2003 (32-bit)" value="2003-32"/>
-                <element label="Windows Server 2003 (64-bit)" value="2003-64"/>
-                <element label="Windows Server 2003 R2 (32-bit)" value="2003r2-32"/>
-                <element label="Windows Server 2003 R2 (64-bit)" value="2003r2-64"/>
-                <element label="Windows Server 2008 (32-bit)" value="2008-32"/>
-                <element label="Windows Server 2008 (64--bit)" value="2008-64"/>
-                <element label="Windows Server 2008 R2" value="2008r2"/>
-                <element label="Windows Server 2012" value="2012"/>
-                <element label="Windows Server 2012 R2" value="2012r2"/>
-                <element label="Windows Server 2016" value="2016"/>
-                <element label="CentOS 4/5/6/7 (64-bit)" sequence="0" value="CentOS 4/5/6/7 (64-bit)"/>
-                <element label="Linux" sequence="0" value="Linux"/>
-                <element label="Linux CentOS/RHEL" sequence="0" value="Linux CentOS/RHEL"/>
-                <element label="Microsoft Windows 10 (64-bit)" sequence="0" value="Microsoft Windows 10 (64-bit)"/>
-                <element label="Microsoft Windows 7 (64-bit)" sequence="0" value="Microsoft Windows 7 (64-bit)"/>
-                <element label="Microsoft Windows Server 2000 (32-bit)" sequence="0" value="Microsoft Windows Server 2000 (32-bit)"/>
-                <element label="Microsoft Windows Server 2003 Standard (32-bit)" sequence="0" value="Microsoft Windows Server 2003 Standard (32-bit)"/>
-                <element label="Microsoft Windows Server 2008 R2" sequence="0" value="Microsoft Windows Server 2008 R2"/>
-                <element label="Microsoft Windows Server 2012" sequence="0" value="Microsoft Windows Server 2012"/>
-                <element label="Microsoft Windows Server 2016 (64-bit)" sequence="0" value="Microsoft Windows Server 2016 (64-bit)"/>
-                <element label="Microsort Windows Server 2012 (64-bit)" sequence="0" value="Microsort Windows Server 2012 (64-bit)"/>
-                <element label="Oracle Solaris 10 (64-bit)" sequence="0" value="Oracle Solaris 10 (64-bit)"/>
-                <element label="Red Hat Enterprise Linux 6 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 6 (64-bit)"/>
-                <element label="Red Hat Enterprise Linux 7 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 7 (64-bit)"/>
-                <element label="Ubuntu Linux (64-bit)" sequence="0" value="Ubuntu Linux (64-bit)"/>
+                <element inactive_on_update="false" label="CentOS" value="centos"/>
+                <element inactive_on_update="false" label="Linux SCO" value="sco"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux" value="rhel"/>
+                <element inactive_on_update="false" label="Ubuntu" value="ubuntu"/>
+                <element inactive_on_update="false" label="Windows 10 (32-bit)" value="win10-32"/>
+                <element inactive_on_update="false" label="Windows 10 (64-bit)" value="win10-64"/>
+                <element inactive_on_update="false" label="Windows 7 (32-bit)" value="win7-32"/>
+                <element inactive_on_update="false" label="Windows 7 (64-bit)" value="win7-64"/>
+                <element inactive_on_update="false" label="Windows Server 2000 (32-bit)" value="2000-32"/>
+                <element inactive_on_update="false" label="Windows Server 2003 (32-bit)" value="2003-32"/>
+                <element inactive_on_update="false" label="Windows Server 2003 (64-bit)" value="2003-64"/>
+                <element inactive_on_update="false" label="Windows Server 2003 R2 (32-bit)" value="2003r2-32"/>
+                <element inactive_on_update="false" label="Windows Server 2003 R2 (64-bit)" value="2003r2-64"/>
+                <element inactive_on_update="false" label="Windows Server 2008 (32-bit)" value="2008-32"/>
+                <element inactive_on_update="false" label="Windows Server 2008 (64--bit)" value="2008-64"/>
+                <element inactive_on_update="false" label="Windows Server 2008 R2" value="2008r2"/>
+                <element inactive_on_update="false" label="Windows Server 2012" value="2012"/>
+                <element inactive_on_update="false" label="Windows Server 2012 R2" value="2012r2"/>
+                <element inactive_on_update="false" label="Windows Server 2016" value="2016"/>
+                <element inactive_on_update="false" label="CentOS 4/5/6/7 (64-bit)" sequence="0" value="CentOS 4/5/6/7 (64-bit)"/>
+                <element inactive_on_update="false" label="Linux" sequence="0" value="Linux"/>
+                <element inactive_on_update="false" label="Linux CentOS/RHEL" sequence="0" value="Linux CentOS/RHEL"/>
+                <element inactive_on_update="false" label="Microsoft Windows 10 (64-bit)" sequence="0" value="Microsoft Windows 10 (64-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows 7 (64-bit)" sequence="0" value="Microsoft Windows 7 (64-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2000 (32-bit)" sequence="0" value="Microsoft Windows Server 2000 (32-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2003 Standard (32-bit)" sequence="0" value="Microsoft Windows Server 2003 Standard (32-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2008 R2" sequence="0" value="Microsoft Windows Server 2008 R2"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2012" sequence="0" value="Microsoft Windows Server 2012"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2016 (64-bit)" sequence="0" value="Microsoft Windows Server 2016 (64-bit)"/>
+                <element inactive_on_update="false" label="Microsort Windows Server 2012 (64-bit)" sequence="0" value="Microsort Windows Server 2012 (64-bit)"/>
+                <element inactive_on_update="false" label="Oracle Solaris 10 (64-bit)" sequence="0" value="Oracle Solaris 10 (64-bit)"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux 6 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 6 (64-bit)"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux 7 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 7 (64-bit)"/>
+                <element inactive_on_update="false" label="Ubuntu Linux (64-bit)" sequence="0" value="Ubuntu Linux (64-bit)"/>
             </choice>
         </element>
         <element choice="3" default="ON" label="Power State" max_length="200" name="power_state" type="choice">
             <choice>
-                <element label="Off" value="OFF"/>
-                <element label="On" value="ON"/>
+                <element inactive_on_update="false" label="Off" value="OFF"/>
+                <element inactive_on_update="false" label="On" value="ON"/>
             </choice>
         </element>
+        <element label="Sort" max_length="256" name="sort" type="integer"/>
         <element choice="3" default="VIRTUAL" label="State" max_length="200" name="state" type="choice">
             <choice>
-                <element label="Physical" value="PHYSICAL"/>
-                <element label="Virtual" value="VIRTUAL"/>
+                <element inactive_on_update="false" label="Physical" value="PHYSICAL"/>
+                <element inactive_on_update="false" label="Virtual" value="VIRTUAL"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element choice="1" label="Zone" max_length="200" name="zone" type="choice">
             <choice>
-                <element label="DCA" sequence="0" value="DCA"/>
-                <element label="DCB" sequence="1" value="DCB"/>
-                <element label="DCC" sequence="2" value="DCC"/>
-                <element label="DCD" sequence="3" value="DCD"/>
-                <element label="DMZ" sequence="4" value="DMZ"/>
-                <element label="PROD" sequence="5" value="PROD"/>
-                <element label="DEV" sequence="6" value="DEV"/>
-                <element label="GAMART" sequence="8" value="GAMART"/>
-                <element label="INFRA" sequence="9" value="INFRA"/>
-                <element label="NR - DMZ" sequence="10" value="NR - DMZ"/>
-                <element label="PHONE" sequence="11" value="PHONE"/>
+                <element inactive_on_update="false" label="DCA" sequence="0" value="DCA"/>
+                <element inactive_on_update="false" label="DCB" sequence="1" value="DCB"/>
+                <element inactive_on_update="false" label="DCC" sequence="2" value="DCC"/>
+                <element inactive_on_update="false" label="DCD" sequence="3" value="DCD"/>
+                <element inactive_on_update="false" label="DMZ" sequence="4" value="DMZ"/>
+                <element inactive_on_update="false" label="PROD" sequence="5" value="PROD"/>
+                <element inactive_on_update="false" label="DEV" sequence="6" value="DEV"/>
+                <element inactive_on_update="false" label="GAMART" sequence="8" value="GAMART"/>
+                <element inactive_on_update="false" label="INFRA" sequence="9" value="INFRA"/>
+                <element inactive_on_update="false" label="NR - DMZ" sequence="10" value="NR - DMZ"/>
+                <element inactive_on_update="false" label="PHONE" sequence="11" value="PHONE"/>
             </choice>
         </element>
         <index name="index">

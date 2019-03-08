@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="backup_type" label="Backup Type" language="en" table="x_mema_morning_che_new_server">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>backup_type</element>
