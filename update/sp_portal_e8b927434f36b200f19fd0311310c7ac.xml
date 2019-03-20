@@ -34,4 +34,5 @@
         <title>Jumpbox</title>
         <url_suffix>jumpbox</url_suffix>
     </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8b927434f36b200f19fd0311310c7ac"/>
 </record_update>

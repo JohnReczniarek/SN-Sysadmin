@@ -43,6 +43,13 @@
             </choice>
         </element>
         <element label="List Branch Flags" max_length="2000" name="flags_info" type="string"/>
+        <element choice="3" default="Error" label="Go Electrical MoPro" max_length="40" name="gopro" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="List issues with Go Electrical MoPro" max_length="2000" name="gopro_info" type="string"/>
         <element choice="3" default="Error" label="IP Monitor Alerts" max_length="40" name="ipmon" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -50,6 +57,13 @@
             </choice>
         </element>
         <element label="List IP Monitor Issues" max_length="2000" name="ipmon_info" type="string"/>
+        <element choice="3" default="Error" label="Cetnaj MoPro" max_length="40" name="mopro" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="List issues with Cetnaj MoPro" max_length="2000" name="mopro_info" type="string"/>
         <element choice="3" default="Error" label="National Unibis" max_length="40" name="nat_unibis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -57,6 +71,13 @@
             </choice>
         </element>
         <element label="List National Unibis Issues" max_length="2000" name="nat_unibis_info" type="string"/>
+        <element choice="3" default="Error" label="Gamart Navision" max_length="40" name="nav" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="List issues with Gamart Navision" max_length="2000" name="nav_info" type="string"/>
         <element choice="3" default="Error" label="Rushmore Unibis" max_length="40" name="rm_unibis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>

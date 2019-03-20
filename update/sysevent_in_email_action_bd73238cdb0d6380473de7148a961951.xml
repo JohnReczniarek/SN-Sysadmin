@@ -33,7 +33,7 @@ if(email.body.approved != undefined){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd73238cdb0d6380473de7148a961951</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>if(email.body.comments != undefined){&#13;
    current.rejectresponse = email.body.comments;&#13;
 }&#13;
@@ -50,9 +50,9 @@ if(email.body.approved != undefined){&#13;
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sysevent_in_email_action_bd73238cdb0d6380473de7148a961951</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-10-05 04:38:30</sys_updated_on>
+        <sys_updated_on>2019-03-20 22:28:27</sys_updated_on>
         <table>x_mema_morning_che_jumpbox</table>
-        <template>company=lol^EQ</template>
+        <template/>
         <type>reply</type>
     </sysevent_in_email_action>
     <sys_translated_text action="delete_multiple" query="documentkey=bd73238cdb0d6380473de7148a961951"/>

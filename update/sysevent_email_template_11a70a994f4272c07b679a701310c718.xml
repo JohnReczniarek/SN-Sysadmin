@@ -14,11 +14,11 @@
 <tbody>
 <tr style="border-color: #000000;">
 <th>System</th>
-<th align="left">Status</th>
+<th style="text-align: center;" align="left">Status</th>
 <th>&nbsp;Comment</th>
 </tr>
 <tr>
-<td>&nbsp;VISUAL INSPECTION OF COMPUTER ROOM:&nbsp;</td>
+<td>&nbsp;SERVER ROOM:&nbsp;</td>
 <td>&nbsp;${server_room}</td>
 <td>${server_room_info}</td>
 </tr>
@@ -33,99 +33,94 @@
 <td>&nbsp;${routers_info}</td>
 </tr>
 <tr>
-<td>&nbsp;SYSINFO &ndash; EOD, EXTENTS, DISK UTILISATION, PROROUTER:&nbsp;</td>
+<td>&nbsp;SYSINFO &ndash; EOD, EXTENTS, DISK:&nbsp;</td>
 <td>&nbsp;${sysinfo}</td>
 <td>&nbsp;${sysinfo_info}</td>
 </tr>
 <tr>
-<td>&nbsp;LOTUS:&nbsp;</td>
-<td>&nbsp;${lotus}</td>
-<td>&nbsp;${lotus_info}</td>
-</tr>
-<tr>
-<td>&nbsp;BI &ndash; CHECK SCHEDULED REPORTS:</td>
+<td>&nbsp;BI REPORTS:</td>
 <td>&nbsp;${bi}</td>
 <td>&nbsp;${bi_info}</td>
 </tr>
 <tr>
-<td>&nbsp;NATIONAL UNIBIS:</td>
+<td>&nbsp;NATIONAL ERP:</td>
 <td>&nbsp;${natunibis}</td>
 <td>&nbsp;${natunibis_info}</td>
 </tr>
 <tr>
-<td>&nbsp;EDI (DOCORIGIN DIRECTORY ISSUES):&nbsp;</td>
-<td>&nbsp;${edi}</td>
-<td>&nbsp;${edi_info}</td>
-</tr>
-<tr>
-<td>&nbsp;RUSHMORE EDI:&nbsp;</td>
-<td>&nbsp;${rm_edi}</td>
-<td>&nbsp;${rm_edi_info}</td>
-</tr>
-<tr>
-<td>&nbsp;RUSHMORE SALES REPORT:&nbsp;</td>
+<td>&nbsp;RUSHMORE ERP:&nbsp;</td>
 <td>&nbsp;${rm_unibis}</td>
 <td>&nbsp;${rm_unibis_info}</td>
 </tr>
 <tr>
-<td>&nbsp;AUTOTICS:&nbsp;</td>
-<td>&nbsp;${autotics}</td>
-<td>&nbsp;${autotics_info}</td>
+<td>&nbsp;DOTMAR AU ERP:</td>
+<td>&nbsp;${dot_unibis}</td>
+<td>&nbsp;${dot_unibis_info}</td>
 </tr>
 <tr>
-<td>&nbsp;MAINTARC:&nbsp;</td>
-<td>&nbsp;${maintarc}</td>
-<td>&nbsp;${maintarc_info}</td>
+<td>&nbsp;DOTMAR NZ ERP:</td>
+<td>&nbsp;${dnz_unibis}</td>
+<td>&nbsp;${dnz_unibis_info}</td>
 </tr>
 <tr>
-<td>&nbsp;CHECK RECV+PROC &amp; MAINT SENT:&nbsp;</td>
+<td>&nbsp;CETNAJ ERP:</td>
+<td>&nbsp;${mopro}</td>
+<td>&nbsp;${mopro_info}</td>
+</tr>
+<tr>
+<td>&nbsp;GAMART ERP:</td>
+<td>&nbsp;${nav}</td>
+<td>&nbsp;${nav_info}</td>
+</tr>
+<tr>
+<td>&nbsp;GO ELECTRICAL ERP:</td>
+<td>&nbsp;${gopro}</td>
+<td>&nbsp;${gopro_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOCORIGIN EDI:&nbsp;</td>
+<td>&nbsp;${edi}</td>
+<td>&nbsp;${edi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;PC MAINTENANCE:&nbsp;</td>
 <td>&nbsp;${rcvprcmaint}</td>
 <td>&nbsp;${rcvprcmaint_info}</td>
 </tr>
 <tr>
-<td>&nbsp;BRUN:</td>
-<td>&nbsp;${brun}</td>
-<td>&nbsp;${brun_info}</td>
-</tr>
-<tr>
-<td>&nbsp;CHECK REJECTS:&nbsp;</td>
+<td>&nbsp;AR, AP, GL REJECTS:&nbsp;</td>
 <td>&nbsp;${rejects}</td>
 <td>&nbsp;${rejects_info}</td>
 </tr>
 <tr>
-<td>&nbsp;SERKO ERRORS:</td>
+<td>&nbsp;SERKO REJECTS:</td>
 <td>&nbsp;${serko}</td>
 <td>&nbsp;${serko_info}</td>
 </tr>
 <tr>
-<td>&nbsp;Operational monitoring of CPM application:&nbsp;</td>
+<td>&nbsp;CPM:&nbsp;</td>
 <td>&nbsp;${cpm}</td>
 <td>&nbsp;${cpm_info}</td>
 </tr>
 <tr>
-<td>&nbsp;Failed Backups - Overnight:&nbsp;</td>
+<td>&nbsp;BACKUP FAILURES - OVERNIGHT:&nbsp;</td>
 <td>&nbsp;${bupson}</td>
 <td>&nbsp;${bupson_info}</td>
 </tr>
 <tr>
-<td>&nbsp;Failed Backups - Major:&nbsp;</td>
+<td>&nbsp;BACKUP FAILURES - MAJOR:&nbsp;</td>
 <td>&nbsp;${bupsm}</td>
 <td>&nbsp;${bupsm_info}</td>
 </tr>
 <tr>
-<td>&nbsp;CETNAJ BACKUPS:</td>
-<td>&nbsp;${cetnaj_backups}</td>
-<td>&nbsp;${cetnaj_backups_info}</td>
+<td>&nbsp;EMAIL:&nbsp;</td>
+<td>&nbsp;${lotus}</td>
+<td>&nbsp;${lotus_info}</td>
 </tr>
 <tr>
 <td>&nbsp;PIM:</td>
 <td>&nbsp;${pim}&nbsp;</td>
 <td>&nbsp;${pim_info}</td>
-</tr>
-<tr>
-<td>&nbsp;ERP Systems:&nbsp;</td>
-<td>&nbsp;${erp_systems}</td>
-<td>&nbsp;${erp_systems_info}</td>
 </tr>
 </tbody>
 </table>]]></message_html>
@@ -139,7 +134,7 @@
         <sys_created_on>2017-04-09 23:14:24</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>11a70a994f4272c07b679a701310c718</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Morning Checlist</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
@@ -147,7 +142,7 @@
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sysevent_email_template_11a70a994f4272c07b679a701310c718</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-01-15 03:22:24</sys_updated_on>
+        <sys_updated_on>2019-03-18 05:40:21</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>
