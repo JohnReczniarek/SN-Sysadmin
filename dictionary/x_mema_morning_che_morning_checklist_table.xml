@@ -136,7 +136,7 @@
             </choice>
         </element>
         <element label="List issues with Cetnaj MoPro" max_length="4000" name="mopro_info" type="string"/>
-        <element choice="3" default="Error" hint="ei511&#13;&#10;jsjb&#13;&#10;ei210, ei240, ei211, ei41, ei250&#13;&#10;arb569 to tsb606" label="NATIONAL ERP" max_length="40" name="natunibis" type="choice">
+        <element choice="3" default="Error" hint="ei511&#13;&#10;jsjb&#13;&#10;ei210, ei240, ei211, ei41, ei250&#13;&#10;arb569 to tsb606&#13;&#10;brun -&gt; sab569" label="NATIONAL ERP" max_length="40" name="natunibis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
@@ -160,7 +160,7 @@
             </choice>
         </element>
         <element label="Error with PIM" max_length="4000" name="pim_info" type="string"/>
-        <element choice="3" default="Error" hint="Check Email" label="MAINTENANCE" max_length="40" name="rcvprcmaint" type="choice">
+        <element choice="3" default="Error" hint="Check Email for send \ receive issues&#13;&#10;cd /u0/unibis/D2/maintarc&#13;&#10;ls -l *ddMMM*&#13;&#10;Check files exist numbered 00 to 10" label="MAINTENANCE" max_length="40" name="rcvprcmaint" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
