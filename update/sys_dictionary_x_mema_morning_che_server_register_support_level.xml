@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="critical_system" table="x_mema_morning_che_server_register">
-        <active>false</active>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="support_level" table="x_mema_morning_che_server_register">
+        <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Critical System</column_label>
+        <column_label>Support level</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>bron</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>critical_system</element>
+        <element>support_level</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>200</max_length>
         <name>x_mema_morning_che_server_register</name>
         <next_element/>
         <primary>false</primary>
@@ -52,18 +52,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-09-06 04:21:14</sys_created_on>
+        <sys_created_on>2019-09-16 04:34:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>289ec6fedb1cab00473de7148a961953</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Critical System</sys_name>
+        <sys_id>1b9d1d2bdb3f7b0011e4e4340596194c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Support level</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
-        <sys_update_name>sys_dictionary_x_mema_morning_che_server_register_critical_system</sys_update_name>
+        <sys_update_name>sys_dictionary_x_mema_morning_che_server_register_support_level</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-09-16 04:34:30</sys_updated_on>
+        <sys_updated_on>2019-09-16 05:02:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>02eaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>94c3e563db7f7b0011e4e434059619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>location</element>
             <position>1</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>82eaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>18c3e563db7f7b0011e4e434059619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>ip_address</element>
             <position>2</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>06eaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>98c3e563db7f7b0011e4e434059619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>zone</element>
             <position>3</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>86eaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>1cc3e563db7f7b0011e4e434059619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>company</element>
             <position>4</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>0aeaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>9cc3e563db7f7b0011e4e434059619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,83 +74,83 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>8aeaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>10c3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>critical_system</element>
+            <element>power_state</element>
             <position>6</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>0eeaac1ddb30670011e4e43405961949</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>90c3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>power_state</element>
-            <position>7</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>8eeaac1ddb30670011e4e43405961949</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>02eaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>14c3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>operating_system</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>82eaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>94c3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>domain</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>06eaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>18c3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>support_level</element>
+            <position>10</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>98c3e563db7f7b0011e4e434059619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>.end_split</element>
             <position>11</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>86eaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>1cc3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>description</element>
             <position>12</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>0aeaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>9cc3e563db7f7b0011e4e434059619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>notes</element>
             <position>13</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>8aeaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>10c3e563db7f7b0011e4e434059619f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>monitoring</element>
             <position>14</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>0eeaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>90c3e563db7f7b0011e4e434059619f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,13 +214,13 @@
             <element>backup_and_replication_group</element>
             <position>15</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>8eeaac1ddb30670011e4e4340596194a</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>14c3e563db7f7b0011e4e434059619f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -228,27 +228,13 @@
             <element>backup_specifics</element>
             <position>16</position>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-26 01:43:06</sys_created_on>
-            <sys_id>02eaac1ddb30670011e4e4340596194b</sys_id>
+            <sys_created_on>2019-09-16 04:57:19</sys_created_on>
+            <sys_id>94c3e563db7f7b0011e4e434059619f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-26 01:43:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sort</element>
-            <position>17</position>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-03-04 03:17:37</sys_created_on>
-            <sys_id>a8557750db00334011e4e43405961939</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_mema_morning_che_server_register" sys_domain="global" view="Default view">57e29ab2db5cab00473de7148a961913</sys_ui_section>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-03-04 03:17:37</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:57:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

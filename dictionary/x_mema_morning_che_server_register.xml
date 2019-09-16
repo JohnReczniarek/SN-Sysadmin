@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="AVS" sequence="6" value="avs"/>
             </choice>
         </element>
-        <element label="Critical System" max_length="40" name="critical_system" type="boolean"/>
+        <element active="false" label="Critical System" max_length="40" name="critical_system" type="boolean"/>
         <element label="Description" max_length="2000" name="description" type="string"/>
         <element choice="3" default="mml.internal" label="Domain" max_length="50" name="domain" type="choice">
             <choice>
@@ -29,10 +29,10 @@
         <element label="IP Address" max_length="16" name="ip_address" type="ip_addr" unique="true"/>
         <element choice="3" default="TDC" label="Location" max_length="200" name="location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="NR" value="NR"/>
-                <element inactive_on_update="false" label="OFFSITE" value="OFF"/>
-                <element inactive_on_update="false" label="TDC" value="TDC"/>
-                <element inactive_on_update="false" label="AVS" sequence="0" value="AVS"/>
+                <element inactive_on_update="false" label="NRocks DC" value="NR"/>
+                <element inactive_on_update="false" label="OFFSITE - See Notes" value="OFF"/>
+                <element inactive_on_update="false" label="Telstra DC" value="TDC"/>
+                <element inactive_on_update="false" label="Mactel DC" sequence="0" value="MTDC"/>
             </choice>
         </element>
         <element label="Monitoring" max_length="2000" name="monitoring" type="string"/>
@@ -87,6 +87,14 @@
             <choice>
                 <element inactive_on_update="false" label="Physical" value="PHYSICAL"/>
                 <element inactive_on_update="false" label="Virtual" value="VIRTUAL"/>
+            </choice>
+        </element>
+        <element choice="3" default="bron" label="Support level" max_length="200" name="support_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bronze" sequence="0" value="bron"/>
+                <element inactive_on_update="false" label="Silver" sequence="1" value="silv"/>
+                <element inactive_on_update="false" label="Gold" sequence="2" value="gold"/>
+                <element inactive_on_update="false" label="Platinum" sequence="3" value="plat"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>

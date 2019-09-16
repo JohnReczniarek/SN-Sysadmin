@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="location" table="x_mema_morning_che_server_register" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="support_level" table="x_mema_morning_che_server_register" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>location</element>
+            <element>support_level</element>
             <hint/>
             <inactive>false</inactive>
-            <label>NRocks DC</label>
-            <language>en</language>
-            <name>x_mema_morning_che_server_register</name>
-            <sequence/>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-10 00:15:16</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>425dfd0cdb6c6f00473de7148a961903</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-09-16 04:32:13</sys_updated_on>
-            <value>NR</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>location</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>OFFSITE - See Notes</label>
-            <language>en</language>
-            <name>x_mema_morning_che_server_register</name>
-            <sequence/>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-10-24 23:53:17</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b06621aadb11eb4011e4e43405961956</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-09-16 04:32:03</sys_updated_on>
-            <value>OFF</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>location</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Telstra DC</label>
-            <language>en</language>
-            <name>x_mema_morning_che_server_register</name>
-            <sequence/>
-            <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-10 00:15:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>674d3d0cdb6c6f00473de7148a9619f4</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-09-16 04:31:56</sys_updated_on>
-            <value>TDC</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>location</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Mactel DC</label>
+            <label>Bronze</label>
             <language>en</language>
             <name>x_mema_morning_che_server_register</name>
             <sequence>0</sequence>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2019-02-20 22:19:58</sys_created_on>
+            <sys_created_on>2019-09-16 04:38:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>59b706b4db33a30011e4e434059619e5</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>c55f11ebdb3f7b0011e4e43405961902</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-09-16 04:31:52</sys_updated_on>
-            <value>MTDC</value>
+            <sys_updated_on>2019-09-16 04:41:26</sys_updated_on>
+            <value>bron</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Silver</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:37:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b91f11abdb3f7b0011e4e4340596197d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:09</sys_updated_on>
+            <value>silv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gold</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:36:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7eedd6bdb3f7b0011e4e4340596191a</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:04</sys_updated_on>
+            <value>gold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Platinum</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>3</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:36:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f99ed56bdb3f7b0011e4e4340596195e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:01</sys_updated_on>
+            <value>plat</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>location</element>
+            <element>support_level</element>
             <name>x_mema_morning_che_server_register</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>john.reczniarek</sys_created_by>
-            <sys_created_on>2018-09-10 00:15:10</sys_created_on>
+            <sys_created_on>2019-09-16 04:36:15</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>825d394cdb6c6f00473de7148a961951</sys_id>
+            <sys_id>ebee19abdb3f7b0011e4e434059619d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>location</sys_name>
+            <sys_name>support_level</sys_name>
             <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
-            <sys_update_name>sys_choice_x_mema_morning_che_server_register_location</sys_update_name>
+            <sys_update_name>sys_choice_x_mema_morning_che_server_register_support_level</sys_update_name>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2018-09-10 00:15:10</sys_updated_on>
+            <sys_updated_on>2019-09-16 04:36:15</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
