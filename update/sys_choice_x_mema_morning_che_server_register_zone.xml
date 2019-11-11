@@ -100,7 +100,7 @@
             <element>zone</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PROD</label>
+            <label>SERVERS</label>
             <language>en</language>
             <name>x_mema_morning_che_server_register</name>
             <sequence>5</sequence>
@@ -109,9 +109,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>196b79c8db6c6f00473de7148a9619ae</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>john.reczniarek</sys_updated_by>
-            <sys_updated_on>2019-02-20 23:36:34</sys_updated_on>
+            <sys_updated_on>2019-09-17 23:24:04</sys_updated_on>
             <value>PROD</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -208,6 +208,25 @@
             <sys_updated_by>john.reczniarek</sys_updated_by>
             <sys_updated_on>2019-02-20 23:36:49</sys_updated_on>
             <value>PHONE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WORKSTATIONS</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>12</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-17 23:22:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b41a22c4db0cc81011e4e43405961965</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-17 23:26:42</sys_updated_on>
+            <value>WORKSTATIONS</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>zone</element>

@@ -29,10 +29,10 @@
         <element label="IP Address" max_length="16" name="ip_address" type="ip_addr" unique="true"/>
         <element choice="3" default="TDC" label="Location" max_length="200" name="location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="NRocks DC" value="NR"/>
-                <element inactive_on_update="false" label="OFFSITE - See Notes" value="OFF"/>
-                <element inactive_on_update="false" label="Telstra DC" value="TDC"/>
-                <element inactive_on_update="false" label="Mactel DC" sequence="0" value="MTDC"/>
+                <element inactive_on_update="false" label="Telstra DC" sequence="0" value="TDC"/>
+                <element inactive_on_update="false" label="OFFSITE - See Notes" sequence="1" value="OFF"/>
+                <element inactive_on_update="false" label="Mactel DC" sequence="2" value="MTDC"/>
+                <element inactive_on_update="false" label="NRocks DC" sequence="3" value="NR"/>
             </choice>
         </element>
         <element label="Monitoring" max_length="2000" name="monitoring" type="string"/>
@@ -98,6 +98,7 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="VM Name" max_length="200" name="vmname" type="string"/>
         <element choice="1" label="Zone" max_length="200" name="zone" type="choice">
             <choice>
                 <element inactive_on_update="false" label="DCA" sequence="0" value="DCA"/>
@@ -105,12 +106,13 @@
                 <element inactive_on_update="false" label="DCC" sequence="2" value="DCC"/>
                 <element inactive_on_update="false" label="DCD" sequence="3" value="DCD"/>
                 <element inactive_on_update="false" label="DMZ" sequence="4" value="DMZ"/>
-                <element inactive_on_update="false" label="PROD" sequence="5" value="PROD"/>
+                <element inactive_on_update="false" label="SERVERS" sequence="5" value="PROD"/>
                 <element inactive_on_update="false" label="DEV" sequence="6" value="DEV"/>
                 <element inactive_on_update="false" label="GAMART" sequence="8" value="GAMART"/>
                 <element inactive_on_update="false" label="INFRA" sequence="9" value="INFRA"/>
                 <element inactive_on_update="false" label="NR - DMZ" sequence="10" value="NR - DMZ"/>
                 <element inactive_on_update="false" label="PHONE" sequence="11" value="PHONE"/>
+                <element inactive_on_update="false" label="WORKSTATIONS" sequence="12" value="WORKSTATIONS"/>
             </choice>
         </element>
         <index name="index">
