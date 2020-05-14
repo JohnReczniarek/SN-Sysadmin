@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" type="collection">
+    <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" sizeclass="30" type="collection">
         <element active="false" choice="3" default="Error" hint="Check emails for alerts" label="Alerts Mailbox" max_length="40" name="alertmb" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -207,6 +207,14 @@
             </choice>
         </element>
         <element label="Rsync info" max_length="4000" name="rsync_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="na" label="RUSHMORE FREE NUMBERS" max_length="40" name="rushm" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NA" sequence="0" value="na"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="error"/>
+                <element inactive_on_update="false" label="OK" sequence="2" value="ok"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="List issues with Rushmore free number" max_length="4000" name="rushm_info" type="string"/>
         <element choice="3" default="Error" hint="/u0/unibis/D3/apdaily/reject - MMEM&#13;&#10;/u0/unibis/D2/apdaily/reject - RUSH" label="SERKO" max_length="40" name="serko" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Error" value="Error"/>

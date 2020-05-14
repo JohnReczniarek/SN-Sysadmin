@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_mema_morning_che_server_register">zone=DMZ^EQ<item endquery="false" field="zone" goto="false" newquery="false" operator="=" or="false" value="DMZ"/>
+        <filter table="x_mema_morning_che_server_register">zone=DMZ^EQ<item display_value="DMZ" endquery="false" field="zone" goto="false" newquery="false" operator="=" or="false" value="DMZ"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

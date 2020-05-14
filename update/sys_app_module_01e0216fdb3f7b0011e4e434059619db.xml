@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_mema_morning_che_server_register">support_level=bron^EQ<item endquery="false" field="support_level" goto="false" newquery="false" operator="=" or="false" value="bron"/>
+        <filter table="x_mema_morning_che_server_register">support_level=bron^EQ<item display_value="Bronze" endquery="false" field="support_level" goto="false" newquery="false" operator="=" or="false" value="bron"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Servers which have a bronze support level</hint>

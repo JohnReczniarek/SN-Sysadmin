@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_mema_morning_che_server_register">zone=DCA^EQ<item endquery="false" field="zone" goto="false" newquery="false" operator="=" or="false" value="DCA"/>
+        <filter table="x_mema_morning_che_server_register">zone=DCA^EQ<item display_value="DCA" endquery="false" field="zone" goto="false" newquery="false" operator="=" or="false" value="DCA"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

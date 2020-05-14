@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Server Register" max_length="40" name="x_mema_morning_che_server_register" type="collection">
+    <element label="Server Register" max_length="40" name="x_mema_morning_che_server_register" sizeclass="280" type="collection">
         <element attributes="ref_auto_completer=AJAXTableCompleter" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="2" label="Backup and Replication Group" max_length="200" name="backup_and_replication_group" reference="x_mema_morning_che_backup_listing" reference_qual="javascript:&quot;location=&quot;+current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>

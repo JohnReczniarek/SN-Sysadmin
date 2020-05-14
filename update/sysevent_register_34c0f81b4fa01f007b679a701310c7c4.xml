@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
         <description>Sends out the emails once the issue has been filled</description>
         <event_name>x_mema_morning_che.MC-Rsync</event_name>
         <fired_by>Workflow \ UI Action</fired_by>

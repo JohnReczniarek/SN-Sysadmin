@@ -122,6 +122,11 @@
 <td>&nbsp;${pim}&nbsp;</td>
 <td>&nbsp;${pim_info}</td>
 </tr>
+<tr>
+<td>RUSHMORE FREE NUMBERS:</td>
+<td>${rushm}</td>
+<td>${rushm_info}</td>
+</tr>
 </tbody>
 </table>]]></message_html>
         <message_list/>
@@ -134,15 +139,15 @@
         <sys_created_on>2017-04-09 23:14:24</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>11a70a994f4272c07b679a701310c718</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Morning Checlist</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sysevent_email_template_11a70a994f4272c07b679a701310c718</sys_update_name>
-        <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2019-03-18 05:40:21</sys_updated_on>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-14 23:07:03</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

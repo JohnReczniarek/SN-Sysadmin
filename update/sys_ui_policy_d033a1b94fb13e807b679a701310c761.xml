@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_mema_morning_che_morning_checklist_table">routers=Error^ORrouters=Repeat Error^EQ<item endquery="false" field="routers" goto="false" newquery="false" operator="=" or="false" value="Error"/>
-            <item endquery="false" field="routers" goto="false" newquery="false" operator="=" or="true" value="Repeat Error"/>
+        <conditions table="x_mema_morning_che_morning_checklist_table">routers=Error^ORrouters=Repeat Error^EQ<item display_value="Error" endquery="false" field="routers" goto="false" newquery="false" operator="=" or="false" value="Error"/>
+            <item display_value="Repeat Error" endquery="false" field="routers" goto="false" newquery="false" operator="=" or="true" value="Repeat Error"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

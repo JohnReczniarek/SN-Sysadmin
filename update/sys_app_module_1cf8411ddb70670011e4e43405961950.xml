@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_mema_morning_che_server_register">company=CETNAJ^EQ<item endquery="false" field="company" goto="false" newquery="false" operator="=" or="false" value="CETNAJ"/>
+        <filter table="x_mema_morning_che_server_register">company=CETNAJ^EQ<item display_value="CETNAJ" endquery="false" field="company" goto="false" newquery="false" operator="=" or="false" value="CETNAJ"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

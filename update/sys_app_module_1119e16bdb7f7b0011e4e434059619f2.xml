@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_mema_morning_che_server_register">location=OFF^EQ<item endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="OFF"/>
+        <filter table="x_mema_morning_che_server_register">location=OFF^EQ<item display_value="OFFSITE - See Notes" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="OFF"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Servers that are not located in a DC</hint>
